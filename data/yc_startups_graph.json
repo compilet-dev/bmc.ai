@@ -1,0 +1,281 @@
+{
+  "nodes": [
+    {
+      "id": "ghostship",
+      "type": "custom",
+      "position": {
+        "x": 2000,
+        "y": 1000
+      },
+      "data": {
+        "label": "Ghostship",
+        "category": "product",
+        "domains": ["qa", "testing", "automation", "ci-cd"]
+      }
+    },
+    {
+      "id": "parachute",
+      "type": "custom",
+      "position": {
+        "x": 2200,
+        "y": 1000
+      },
+      "data": {
+        "label": "Parachute",
+        "category": "product",
+        "domains": ["healthcare", "ai-governance", "compliance", "monitoring"]
+      }
+    },
+    {
+      "id": "solva",
+      "type": "custom",
+      "position": {
+        "x": 2400,
+        "y": 1000
+      },
+      "data": {
+        "label": "Solva",
+        "category": "product",
+        "domains": ["insurance", "legal-ai", "claims-processing", "automation"]
+      }
+    },
+    {
+      "id": "closera",
+      "type": "custom",
+      "position": {
+        "x": 2600,
+        "y": 1000
+      },
+      "data": {
+        "label": "Closera",
+        "category": "product",
+        "domains": ["real-estate", "commercial-real-estate", "ai-agents", "automation"]
+      }
+    },
+    {
+      "id": "traceroot",
+      "type": "custom",
+      "position": {
+        "x": 2800,
+        "y": 1000
+      },
+      "data": {
+        "label": "TraceRoot",
+        "category": "product",
+        "domains": ["debugging", "production-monitoring", "ai-agents", "open-source"]
+      }
+    },
+    {
+      "id": "locata",
+      "type": "custom",
+      "position": {
+        "x": 2000,
+        "y": 1200
+      },
+      "data": {
+        "label": "Locata",
+        "category": "product",
+        "domains": ["healthcare", "referral-management", "automation", "ehr-integration"]
+      }
+    },
+    {
+      "id": "pharmie-ai",
+      "type": "custom",
+      "position": {
+        "x": 2200,
+        "y": 1200
+      },
+      "data": {
+        "label": "Pharmie AI",
+        "category": "product",
+        "domains": ["healthcare", "pharmacy", "ai-assistant", "automation"]
+      }
+    },
+    {
+      "id": "flywheel-ai",
+      "type": "custom",
+      "position": {
+        "x": 2400,
+        "y": 1200
+      },
+      "data": {
+        "label": "Flywheel AI",
+        "category": "product",
+        "domains": ["construction", "autonomous-vehicles", "robotics", "remote-control"]
+      }
+    },
+    {
+      "id": "altur",
+      "type": "custom",
+      "position": {
+        "x": 2600,
+        "y": 1200
+      },
+      "data": {
+        "label": "Altur",
+        "category": "product",
+        "domains": ["fintech", "debt-collection", "ai-agents", "voice-ai"]
+      }
+    },
+    {
+      "id": "socratix-ai",
+      "type": "custom",
+      "position": {
+        "x": 2800,
+        "y": 1200
+      },
+      "data": {
+        "label": "Socratix AI",
+        "category": "product",
+        "domains": ["fintech", "fraud-detection", "risk-management", "ai-coworkers"]
+      }
+    },
+    {
+      "id": "epicenter",
+      "type": "custom",
+      "position": {
+        "x": 2000,
+        "y": 1400
+      },
+      "data": {
+        "label": "Epicenter",
+        "category": "product",
+        "domains": ["productivity", "knowledge-management", "open-source", "local-first"]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "autonomous-agents-to-ghostship",
+      "source": "autonomous-agents",
+      "target": "ghostship",
+      "type": "simplebezier"
+    },
+    {
+      "id": "ai-qa-testing-to-ghostship",
+      "source": "ai-qa-testing",
+      "target": "ghostship",
+      "type": "simplebezier"
+    },
+    {
+      "id": "healthcare-ai-to-parachute",
+      "source": "healthcare-ai",
+      "target": "parachute",
+      "type": "simplebezier"
+    },
+    {
+      "id": "healthcare-monitoring-to-parachute",
+      "source": "healthcare-ai",
+      "target": "parachute",
+      "type": "simplebezier"
+    },
+    {
+      "id": "legal-ai-to-solva",
+      "source": "legal-ai",
+      "target": "solva",
+      "type": "simplebezier"
+    },
+    {
+      "id": "finance-ai-to-solva",
+      "source": "finance-ai",
+      "target": "solva",
+      "type": "simplebezier"
+    },
+    {
+      "id": "property-valuation-to-closera",
+      "source": "property-valuation",
+      "target": "closera",
+      "type": "simplebezier"
+    },
+    {
+      "id": "autonomous-agents-to-closera",
+      "source": "autonomous-agents",
+      "target": "closera",
+      "type": "simplebezier"
+    },
+    {
+      "id": "ai-dev-tools-to-traceroot",
+      "source": "ai-dev-tools",
+      "target": "traceroot",
+      "type": "simplebezier"
+    },
+    {
+      "id": "autonomous-agents-to-traceroot",
+      "source": "autonomous-agents",
+      "target": "traceroot",
+      "type": "simplebezier"
+    },
+    {
+      "id": "healthcare-ai-to-locata",
+      "source": "healthcare-ai",
+      "target": "locata",
+      "type": "simplebezier"
+    },
+    {
+      "id": "workflow-automation-to-locata",
+      "source": "workflow-automation",
+      "target": "locata",
+      "type": "simplebezier"
+    },
+    {
+      "id": "healthcare-ai-to-pharmie-ai",
+      "source": "healthcare-ai",
+      "target": "pharmie-ai",
+      "type": "simplebezier"
+    },
+    {
+      "id": "voice-assistants-to-pharmie-ai",
+      "source": "voice-assistants",
+      "target": "pharmie-ai",
+      "type": "simplebezier"
+    },
+    {
+      "id": "autonomous-vehicles-to-flywheel-ai",
+      "source": "autonomous-vehicles",
+      "target": "flywheel-ai",
+      "type": "simplebezier"
+    },
+    {
+      "id": "robotics-to-flywheel-ai",
+      "source": "robotics",
+      "target": "flywheel-ai",
+      "type": "simplebezier"
+    },
+    {
+      "id": "finance-ai-to-altur",
+      "source": "finance-ai",
+      "target": "altur",
+      "type": "simplebezier"
+    },
+    {
+      "id": "voice-assistants-to-altur",
+      "source": "voice-assistants",
+      "target": "altur",
+      "type": "simplebezier"
+    },
+    {
+      "id": "finance-ai-to-socratix-ai",
+      "source": "finance-ai",
+      "target": "socratix-ai",
+      "type": "simplebezier"
+    },
+    {
+      "id": "fraud-detection-to-socratix-ai",
+      "source": "fraud-detection",
+      "target": "socratix-ai",
+      "type": "simplebezier"
+    },
+    {
+      "id": "knowledge-base-ai-to-epicenter",
+      "source": "knowledge-base-ai",
+      "target": "epicenter",
+      "type": "simplebezier"
+    },
+    {
+      "id": "workflow-automation-to-epicenter",
+      "source": "workflow-automation",
+      "target": "epicenter",
+      "type": "simplebezier"
+    }
+  ]
+}
