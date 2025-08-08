@@ -1,0 +1,7240 @@
+{
+  "nodes": [
+    {
+      "id": "llm",
+      "type": "custom",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "Large Language Models",
+        "nodeType": "foundation",
+        "category": "Foundation",
+        "domains": []
+      }
+    },
+    {
+      "id": "diffusion",
+      "type": "custom",
+      "position": {
+        "x": 400,
+        "y": 0
+      },
+      "data": {
+        "label": "Diffusion Models",
+        "nodeType": "foundation",
+        "category": "Foundation",
+        "domains": []
+      }
+    },
+    {
+      "id": "transformer",
+      "type": "custom",
+      "position": {
+        "x": 200,
+        "y": 448.0157353968515
+      },
+      "data": {
+        "label": "Transformer Architecture",
+        "nodeType": "foundation",
+        "category": "Foundation",
+        "domains": []
+      }
+    },
+    {
+      "id": "attention",
+      "type": "custom",
+      "position": {
+        "x": 963.1089423595885,
+        "y": 140.89582870882333
+      },
+      "data": {
+        "label": "Attention Mechanisms",
+        "nodeType": "technique",
+        "category": "Technique",
+        "domains": []
+      }
+    },
+    {
+      "id": "rlhf",
+      "type": "custom",
+      "position": {
+        "x": 100,
+        "y": 182.87311920407933
+      },
+      "data": {
+        "label": "RLHF",
+        "nodeType": "technique",
+        "category": "Technique",
+        "domains": []
+      }
+    },
+    {
+      "id": "noise-to-signal",
+      "type": "custom",
+      "position": {
+        "x": 500,
+        "y": 517.6827681206602
+      },
+      "data": {
+        "label": "Noise-to-Signal",
+        "nodeType": "technique",
+        "category": "Technique",
+        "domains": []
+      }
+    },
+    {
+      "id": "latent-space",
+      "type": "custom",
+      "position": {
+        "x": 300,
+        "y": 489.2930215637203
+      },
+      "data": {
+        "label": "Latent Space Manipulation",
+        "nodeType": "technique",
+        "category": "Technique",
+        "domains": []
+      }
+    },
+    {
+      "id": "controlnet",
+      "type": "custom",
+      "position": {
+        "x": 600,
+        "y": 526.5829270414207
+      },
+      "data": {
+        "label": "ControlNet",
+        "nodeType": "technique",
+        "category": "Technique",
+        "domains": []
+      }
+    },
+    {
+      "id": "geometric-dl",
+      "type": "custom",
+      "position": {
+        "x": 700,
+        "y": 154.50299573675616
+      },
+      "data": {
+        "label": "Geometric Deep Learning",
+        "nodeType": "technique",
+        "category": "Technique",
+        "domains": []
+      }
+    },
+    {
+      "id": "evoformer",
+      "type": "custom",
+      "position": {
+        "x": 900,
+        "y": 62.41326813582035
+      },
+      "data": {
+        "label": "Evoformer/Pairformer",
+        "nodeType": "technique",
+        "category": "Technique",
+        "domains": []
+      }
+    },
+    {
+      "id": "rag",
+      "type": "custom",
+      "position": {
+        "x": 69.00492817029135,
+        "y": 315.4539980771324
+      },
+      "data": {
+        "label": "Retrieval-Augmented Generation (RAG)",
+        "nodeType": "technique",
+        "category": "Technique",
+        "domains": []
+      }
+    },
+    {
+      "id": "prompt-engineering",
+      "type": "custom",
+      "position": {
+        "x": 529.167540506919,
+        "y": 252.17316741231124
+      },
+      "data": {
+        "label": "Prompt Engineering",
+        "nodeType": "technique",
+        "category": "Technique",
+        "domains": []
+      }
+    },
+    {
+      "id": "context-engineering",
+      "type": "custom",
+      "position": {
+        "x": 582.2955938031839,
+        "y": 8.613108791780855
+      },
+      "data": {
+        "label": "Context Engineering",
+        "nodeType": "technique",
+        "category": "Technique",
+        "domains": []
+      }
+    },
+    {
+      "id": "fine-tuning",
+      "type": "custom",
+      "position": {
+        "x": 373.4223587185124,
+        "y": 488.6798536514226
+      },
+      "data": {
+        "label": "Fine-Tuning & LoRA",
+        "nodeType": "technique",
+        "category": "Technique",
+        "domains": []
+      }
+    },
+    {
+      "id": "vector-embeddings",
+      "type": "custom",
+      "position": {
+        "x": 859.0085902251275,
+        "y": 55.47660201768863
+      },
+      "data": {
+        "label": "Vector Embeddings",
+        "nodeType": "technique",
+        "category": "Technique",
+        "domains": []
+      }
+    },
+    {
+      "id": "supervised-learning",
+      "type": "custom",
+      "position": {
+        "x": 301.14930929997064,
+        "y": 284.2440705623468
+      },
+      "data": {
+        "label": "Supervised Learning",
+        "nodeType": "technique",
+        "category": "Technique",
+        "domains": []
+      }
+    },
+    {
+      "id": "unsupervised-learning",
+      "type": "custom",
+      "position": {
+        "x": 100,
+        "y": 213.54957351242513
+      },
+      "data": {
+        "label": "Unsupervised Learning",
+        "nodeType": "technique",
+        "category": "Technique",
+        "domains": []
+      }
+    },
+    {
+      "id": "reinforcement-learning",
+      "type": "custom",
+      "position": {
+        "x": 300,
+        "y": 302.2559620457239
+      },
+      "data": {
+        "label": "Reinforcement Learning",
+        "nodeType": "technique",
+        "category": "Technique",
+        "domains": []
+      }
+    },
+    {
+      "id": "deep-learning",
+      "type": "custom",
+      "position": {
+        "x": 500,
+        "y": 16.277279640752074
+      },
+      "data": {
+        "label": "Deep Learning (CNNs, RNNs)",
+        "nodeType": "technique",
+        "category": "Technique",
+        "domains": []
+      }
+    },
+    {
+      "id": "ensemble-methods",
+      "type": "custom",
+      "position": {
+        "x": 800.7676950526233,
+        "y": 128.23140529601122
+      },
+      "data": {
+        "label": "Ensemble Methods",
+        "nodeType": "combination",
+        "category": "Combination",
+        "domains": []
+      }
+    },
+    {
+      "id": "time-series",
+      "type": "custom",
+      "position": {
+        "x": 707.8355920923432,
+        "y": 151.1494707307422
+      },
+      "data": {
+        "label": "Time Series Analysis",
+        "nodeType": "technique",
+        "category": "Technique",
+        "domains": []
+      }
+    },
+    {
+      "id": "vision-language",
+      "type": "custom",
+      "position": {
+        "x": 200,
+        "y": 200
+      },
+      "data": {
+        "label": "Vision + Language",
+        "nodeType": "combination",
+        "category": "Multimodal",
+        "domains": []
+      }
+    },
+    {
+      "id": "code-execution",
+      "type": "custom",
+      "position": {
+        "x": 0,
+        "y": 200
+      },
+      "data": {
+        "label": "Language + Code + Execution",
+        "nodeType": "combination",
+        "category": "Multimodal",
+        "domains": []
+      }
+    },
+    {
+      "id": "speech-synthesis",
+      "type": "custom",
+      "position": {
+        "x": 400,
+        "y": 200
+      },
+      "data": {
+        "label": "Speech + Language",
+        "nodeType": "combination",
+        "category": "Multimodal",
+        "domains": []
+      }
+    },
+    {
+      "id": "embodied-ai",
+      "type": "custom",
+      "position": {
+        "x": 600,
+        "y": 200
+      },
+      "data": {
+        "label": "AI + Robotics",
+        "nodeType": "combination",
+        "category": "Multimodal",
+        "domains": []
+      }
+    },
+    {
+      "id": "multi-agent",
+      "type": "custom",
+      "position": {
+        "x": 300,
+        "y": 391.7377940642454
+      },
+      "data": {
+        "label": "Multi-Agent Orchestration",
+        "nodeType": "technique",
+        "category": "Technique",
+        "domains": []
+      }
+    },
+    {
+      "id": "computer-use",
+      "type": "custom",
+      "position": {
+        "x": 400,
+        "y": 69.51727725782169
+      },
+      "data": {
+        "label": "Computer Use & UI Automation",
+        "nodeType": "technique",
+        "category": "Technique",
+        "domains": []
+      }
+    },
+    {
+      "id": "autonomous-agents",
+      "type": "custom",
+      "position": {
+        "x": 0,
+        "y": 400
+      },
+      "data": {
+        "label": "Autonomous AI Agents",
+        "nodeType": "application",
+        "category": "Agents",
+        "domains": [
+          "Technology",
+          "Business"
+        ]
+      }
+    },
+    {
+      "id": "research-agents",
+      "type": "custom",
+      "position": {
+        "x": 200,
+        "y": 400
+      },
+      "data": {
+        "label": "AI Research Assistants",
+        "nodeType": "application",
+        "category": "Agents",
+        "domains": [
+          "Education",
+          "Technology"
+        ]
+      }
+    },
+    {
+      "id": "workflow-automation",
+      "type": "custom",
+      "position": {
+        "x": 743.2091258519627,
+        "y": 400
+      },
+      "data": {
+        "label": "Workflow Automation Agents",
+        "nodeType": "application",
+        "category": "Agents",
+        "domains": [
+          "Business",
+          "Technology"
+        ]
+      }
+    },
+    {
+      "id": "music-gen",
+      "type": "custom",
+      "position": {
+        "x": 1000,
+        "y": 300
+      },
+      "data": {
+        "label": "AI Music Composition",
+        "nodeType": "application",
+        "category": "Creative",
+        "domains": [
+          "Entertainment",
+          "Media"
+        ]
+      }
+    },
+    {
+      "id": "video-gen",
+      "type": "custom",
+      "position": {
+        "x": 1200,
+        "y": 300
+      },
+      "data": {
+        "label": "AI Video Synthesis",
+        "nodeType": "application",
+        "category": "Creative",
+        "domains": [
+          "Entertainment",
+          "Media",
+          "Marketing"
+        ]
+      }
+    },
+    {
+      "id": "fashion-ai",
+      "type": "custom",
+      "position": {
+        "x": 1400,
+        "y": 300
+      },
+      "data": {
+        "label": "AI Fashion Design",
+        "nodeType": "application",
+        "category": "Creative",
+        "domains": [
+          "Retail",
+          "Fashion"
+        ]
+      }
+    },
+    {
+      "id": "game-ai",
+      "type": "custom",
+      "position": {
+        "x": 1600,
+        "y": 300
+      },
+      "data": {
+        "label": "Procedural Game Content & NPCs",
+        "nodeType": "application",
+        "category": "Creative",
+        "domains": [
+          "Gaming",
+          "Entertainment"
+        ]
+      }
+    },
+    {
+      "id": "storybook-gen",
+      "type": "custom",
+      "position": {
+        "x": 1800,
+        "y": 300
+      },
+      "data": {
+        "label": "AI Storybook & Children\\",
+        "nodeType": "application",
+        "category": "Creative",
+        "domains": [
+          "Education",
+          "Entertainment",
+          "Publishing"
+        ]
+      }
+    },
+    {
+      "id": "world-model-gen",
+      "type": "custom",
+      "position": {
+        "x": 2000,
+        "y": 300
+      },
+      "data": {
+        "label": "AI World Model Generation",
+        "nodeType": "application",
+        "category": "Creative",
+        "domains": [
+          "Gaming",
+          "Simulation",
+          "Research"
+        ]
+      }
+    },
+    {
+      "id": "drug-discovery",
+      "type": "custom",
+      "position": {
+        "x": 1000,
+        "y": 500
+      },
+      "data": {
+        "label": "AI Drug Discovery & Screening",
+        "nodeType": "application",
+        "category": "Scientific",
+        "domains": [
+          "Medical",
+          "Pharma"
+        ]
+      }
+    },
+    {
+      "id": "materials-science",
+      "type": "custom",
+      "position": {
+        "x": 1200,
+        "y": 500
+      },
+      "data": {
+        "label": "AI Materials Design",
+        "nodeType": "application",
+        "category": "Scientific",
+        "domains": [
+          "Manufacturing",
+          "Energy"
+        ]
+      }
+    },
+    {
+      "id": "protein-folding",
+      "type": "custom",
+      "position": {
+        "x": 1400,
+        "y": 500
+      },
+      "data": {
+        "label": "Protein Structure Prediction",
+        "nodeType": "application",
+        "category": "Scientific",
+        "domains": [
+          "Medical",
+          "Pharma"
+        ]
+      }
+    },
+    {
+      "id": "ai-research-tools",
+      "type": "custom",
+      "position": {
+        "x": 1600,
+        "y": 500
+      },
+      "data": {
+        "label": "AI Scientific Research Assistants",
+        "nodeType": "application",
+        "category": "Scientific",
+        "domains": [
+          "Education",
+          "Technology"
+        ]
+      }
+    },
+    {
+      "id": "ai-dev-tools",
+      "type": "custom",
+      "position": {
+        "x": 500,
+        "y": 400
+      },
+      "data": {
+        "label": "AI Development Assistants",
+        "nodeType": "application",
+        "category": "Developer",
+        "domains": [
+          "Technology",
+          "Software"
+        ]
+      }
+    },
+    {
+      "id": "ai-code-review",
+      "type": "custom",
+      "position": {
+        "x": 700,
+        "y": 400
+      },
+      "data": {
+        "label": "AI Code Review & Analysis",
+        "nodeType": "application",
+        "category": "Developer",
+        "domains": [
+          "Technology",
+          "Software"
+        ]
+      }
+    },
+    {
+      "id": "ai-qa-testing",
+      "type": "custom",
+      "position": {
+        "x": 900,
+        "y": 400
+      },
+      "data": {
+        "label": "AI-Powered QA & Testing",
+        "nodeType": "application",
+        "category": "Developer",
+        "domains": [
+          "Technology",
+          "Software"
+        ]
+      }
+    },
+    {
+      "id": "voice-assistants",
+      "type": "custom",
+      "position": {
+        "x": 400,
+        "y": 300
+      },
+      "data": {
+        "label": "AI Voice Assistants & Synthesis",
+        "nodeType": "application",
+        "category": "Voice",
+        "domains": [
+          "Technology",
+          "Customer Service",
+          "Entertainment"
+        ]
+      }
+    },
+    {
+      "id": "customer-service",
+      "type": "custom",
+      "position": {
+        "x": 1000,
+        "y": 700
+      },
+      "data": {
+        "label": "AI Customer Support Automation",
+        "nodeType": "application",
+        "category": "Business",
+        "domains": [
+          "Retail",
+          "Finance",
+          "Technology"
+        ]
+      }
+    },
+    {
+      "id": "healthcare-ai",
+      "type": "custom",
+      "position": {
+        "x": 1200,
+        "y": 700
+      },
+      "data": {
+        "label": "Medical Diagnosis & Treatment Planning",
+        "nodeType": "application",
+        "category": "Healthcare",
+        "domains": [
+          "Medical",
+          "Pharma"
+        ]
+      }
+    },
+    {
+      "id": "legal-ai",
+      "type": "custom",
+      "position": {
+        "x": 1400,
+        "y": 700
+      },
+      "data": {
+        "label": "Legal Document Analysis & Generation",
+        "nodeType": "application",
+        "category": "Legal",
+        "domains": [
+          "Legal",
+          "Finance",
+          "Government"
+        ]
+      }
+    },
+    {
+      "id": "finance-ai",
+      "type": "custom",
+      "position": {
+        "x": 1600,
+        "y": 700
+      },
+      "data": {
+        "label": "AI Trading & Risk Assessment",
+        "nodeType": "application",
+        "category": "Finance",
+        "domains": [
+          "Finance",
+          "Banking",
+          "Insurance"
+        ]
+      }
+    },
+    {
+      "id": "knowledge-base-ai",
+      "type": "custom",
+      "position": {
+        "x": 564.5412446142491,
+        "y": 700
+      },
+      "data": {
+        "label": "Enterprise Knowledge Management",
+        "nodeType": "application",
+        "category": "Enterprise",
+        "domains": [
+          "Technology",
+          "Business"
+        ]
+      }
+    },
+    {
+      "id": "semantic-search",
+      "type": "custom",
+      "position": {
+        "x": 930.1249686897013,
+        "y": 700
+      },
+      "data": {
+        "label": "Semantic Search & Retrieval",
+        "nodeType": "application",
+        "category": "Search",
+        "domains": [
+          "Technology",
+          "Education"
+        ]
+      }
+    },
+    {
+      "id": "fraud-detection",
+      "type": "custom",
+      "position": {
+        "x": 948.3097253200834,
+        "y": 900
+      },
+      "data": {
+        "label": "Fraud Detection Systems",
+        "nodeType": "application",
+        "category": "Security",
+        "domains": [
+          "Finance",
+          "Banking",
+          "E-commerce"
+        ]
+      }
+    },
+    {
+      "id": "recommendation-systems",
+      "type": "custom",
+      "position": {
+        "x": 100,
+        "y": 900
+      },
+      "data": {
+        "label": "Recommendation Systems",
+        "nodeType": "application",
+        "category": "Personalization",
+        "domains": [
+          "E-commerce",
+          "Entertainment",
+          "Media"
+        ]
+      }
+    },
+    {
+      "id": "predictive-analytics",
+      "type": "custom",
+      "position": {
+        "x": 300,
+        "y": 900
+      },
+      "data": {
+        "label": "Predictive Analytics & Forecasting",
+        "nodeType": "application",
+        "category": "Analytics",
+        "domains": [
+          "Business",
+          "Finance",
+          "Retail"
+        ]
+      }
+    },
+    {
+      "id": "anomaly-detection",
+      "type": "custom",
+      "position": {
+        "x": 500,
+        "y": 900
+      },
+      "data": {
+        "label": "Anomaly Detection",
+        "nodeType": "application",
+        "category": "Security",
+        "domains": [
+          "Cybersecurity",
+          "Manufacturing",
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "precision-farming",
+      "type": "custom",
+      "position": {
+        "x": 700,
+        "y": 900
+      },
+      "data": {
+        "label": "Precision Agriculture & Crop Monitoring",
+        "nodeType": "application",
+        "category": "Agriculture",
+        "domains": [
+          "Agriculture",
+          "AgTech"
+        ]
+      }
+    },
+    {
+      "id": "livestock-monitoring",
+      "type": "custom",
+      "position": {
+        "x": 900,
+        "y": 900
+      },
+      "data": {
+        "label": "Livestock Health Monitoring",
+        "nodeType": "application",
+        "category": "Agriculture",
+        "domains": [
+          "Agriculture",
+          "Livestock"
+        ]
+      }
+    },
+    {
+      "id": "predictive-maintenance",
+      "type": "custom",
+      "position": {
+        "x": 1100,
+        "y": 900
+      },
+      "data": {
+        "label": "Predictive Maintenance Systems",
+        "nodeType": "application",
+        "category": "Manufacturing",
+        "domains": [
+          "Manufacturing",
+          "Industrial"
+        ]
+      }
+    },
+    {
+      "id": "quality-control-ai",
+      "type": "custom",
+      "position": {
+        "x": 1300,
+        "y": 900
+      },
+      "data": {
+        "label": "AI Quality Control & Inspection",
+        "nodeType": "application",
+        "category": "Manufacturing",
+        "domains": [
+          "Manufacturing",
+          "Automotive"
+        ]
+      }
+    },
+    {
+      "id": "supply-chain-opt",
+      "type": "custom",
+      "position": {
+        "x": 1500,
+        "y": 900
+      },
+      "data": {
+        "label": "Supply Chain Optimization",
+        "nodeType": "application",
+        "category": "Logistics",
+        "domains": [
+          "Logistics",
+          "Manufacturing",
+          "Retail"
+        ]
+      }
+    },
+    {
+      "id": "bim-ai",
+      "type": "custom",
+      "position": {
+        "x": 1700,
+        "y": 900
+      },
+      "data": {
+        "label": "AI-Enhanced BIM & Design",
+        "nodeType": "application",
+        "category": "Construction",
+        "domains": [
+          "Construction",
+          "Architecture"
+        ]
+      }
+    },
+    {
+      "id": "property-valuation",
+      "type": "custom",
+      "position": {
+        "x": 1900,
+        "y": 900
+      },
+      "data": {
+        "label": "AI Property Valuation",
+        "nodeType": "application",
+        "category": "Real Estate",
+        "domains": [
+          "Real Estate",
+          "PropTech"
+        ]
+      }
+    },
+    {
+      "id": "construction-safety",
+      "type": "custom",
+      "position": {
+        "x": 2100,
+        "y": 900
+      },
+      "data": {
+        "label": "Construction Site Safety Monitoring",
+        "nodeType": "application",
+        "category": "Construction",
+        "domains": [
+          "Construction",
+          "Safety"
+        ]
+      }
+    },
+    {
+      "id": "smart-grid",
+      "type": "custom",
+      "position": {
+        "x": 2300,
+        "y": 900
+      },
+      "data": {
+        "label": "Smart Grid Management",
+        "nodeType": "application",
+        "category": "Energy",
+        "domains": [
+          "Energy",
+          "Utilities"
+        ]
+      }
+    },
+    {
+      "id": "renewable-optimization",
+      "type": "custom",
+      "position": {
+        "x": 2500,
+        "y": 900
+      },
+      "data": {
+        "label": "Renewable Energy Optimization",
+        "nodeType": "application",
+        "category": "Energy",
+        "domains": [
+          "Energy",
+          "Renewable"
+        ]
+      }
+    },
+    {
+      "id": "energy-forecasting",
+      "type": "custom",
+      "position": {
+        "x": 2700,
+        "y": 900
+      },
+      "data": {
+        "label": "Energy Demand Forecasting",
+        "nodeType": "application",
+        "category": "Energy",
+        "domains": [
+          "Energy",
+          "Utilities"
+        ]
+      }
+    },
+    {
+      "id": "gpt4",
+      "type": "custom",
+      "position": {
+        "x": 9.285345077493457,
+        "y": 100
+      },
+      "data": {
+        "label": "GPT-4",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "claude",
+      "type": "custom",
+      "position": {
+        "x": 50,
+        "y": 100
+      },
+      "data": {
+        "label": "Claude",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "claude-code",
+      "type": "custom",
+      "position": {
+        "x": 900,
+        "y": 700
+      },
+      "data": {
+        "label": "Claude Code",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "gemini",
+      "type": "custom",
+      "position": {
+        "x": 200,
+        "y": 100
+      },
+      "data": {
+        "label": "Gemini",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "dalle",
+      "type": "custom",
+      "position": {
+        "x": 350,
+        "y": 100
+      },
+      "data": {
+        "label": "DALL-E",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "midjourney",
+      "type": "custom",
+      "position": {
+        "x": 500,
+        "y": 100
+      },
+      "data": {
+        "label": "Midjourney",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "stable-diffusion",
+      "type": "custom",
+      "position": {
+        "x": 650,
+        "y": 100
+      },
+      "data": {
+        "label": "Stable Diffusion",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "copilot",
+      "type": "custom",
+      "position": {
+        "x": 300,
+        "y": 500
+      },
+      "data": {
+        "label": "GitHub Copilot",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "cursor",
+      "type": "custom",
+      "position": {
+        "x": 450,
+        "y": 500
+      },
+      "data": {
+        "label": "Cursor",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "codeium",
+      "type": "custom",
+      "position": {
+        "x": 600,
+        "y": 500
+      },
+      "data": {
+        "label": "Codeium",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "amazon-q",
+      "type": "custom",
+      "position": {
+        "x": 750,
+        "y": 500
+      },
+      "data": {
+        "label": "Amazon Q Developer",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "tabnine",
+      "type": "custom",
+      "position": {
+        "x": 300,
+        "y": 600
+      },
+      "data": {
+        "label": "Tabnine",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "jetbrains-ai",
+      "type": "custom",
+      "position": {
+        "x": 450,
+        "y": 600
+      },
+      "data": {
+        "label": "JetBrains AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "replit-ghost",
+      "type": "custom",
+      "position": {
+        "x": 600,
+        "y": 600
+      },
+      "data": {
+        "label": "Replit Ghostwriter",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "sonarcloud",
+      "type": "custom",
+      "position": {
+        "x": 700,
+        "y": 700
+      },
+      "data": {
+        "label": "SonarCloud",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "deepsource",
+      "type": "custom",
+      "position": {
+        "x": 850,
+        "y": 700
+      },
+      "data": {
+        "label": "DeepSource",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "codacy",
+      "type": "custom",
+      "position": {
+        "x": 1000,
+        "y": 700
+      },
+      "data": {
+        "label": "Codacy",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "metabob",
+      "type": "custom",
+      "position": {
+        "x": 700,
+        "y": 800
+      },
+      "data": {
+        "label": "Metabob",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "mabl",
+      "type": "custom",
+      "position": {
+        "x": 900,
+        "y": 500
+      },
+      "data": {
+        "label": "Mabl",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "applitools",
+      "type": "custom",
+      "position": {
+        "x": 1050,
+        "y": 500
+      },
+      "data": {
+        "label": "Applitools",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "testim",
+      "type": "custom",
+      "position": {
+        "x": 900,
+        "y": 600
+      },
+      "data": {
+        "label": "Testim",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "katalon",
+      "type": "custom",
+      "position": {
+        "x": 1050,
+        "y": 600
+      },
+      "data": {
+        "label": "Katalon Studio",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "suno",
+      "type": "custom",
+      "position": {
+        "x": 1000,
+        "y": 400
+      },
+      "data": {
+        "label": "Suno AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "udio",
+      "type": "custom",
+      "position": {
+        "x": 1200,
+        "y": 400
+      },
+      "data": {
+        "label": "Udio",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "runway",
+      "type": "custom",
+      "position": {
+        "x": 1400,
+        "y": 400
+      },
+      "data": {
+        "label": "Runway",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "imagen-4",
+      "type": "custom",
+      "position": {
+        "x": 800,
+        "y": 100
+      },
+      "data": {
+        "label": "Google Imagen 4",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "chatgpt-storybook",
+      "type": "custom",
+      "position": {
+        "x": 1800,
+        "y": 400
+      },
+      "data": {
+        "label": "ChatGPT Canvas",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "childbook-ai",
+      "type": "custom",
+      "position": {
+        "x": 1950,
+        "y": 400
+      },
+      "data": {
+        "label": "Childbook.ai",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "genie-3",
+      "type": "custom",
+      "position": {
+        "x": 2000,
+        "y": 400
+      },
+      "data": {
+        "label": "Google Genie 3",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "nvidia-ace",
+      "type": "custom",
+      "position": {
+        "x": 1800,
+        "y": 200
+      },
+      "data": {
+        "label": "NVIDIA ACE",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "inworld-ai",
+      "type": "custom",
+      "position": {
+        "x": 1800,
+        "y": 300
+      },
+      "data": {
+        "label": "Inworld AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "unity-ai",
+      "type": "custom",
+      "position": {
+        "x": 1600,
+        "y": 200
+      },
+      "data": {
+        "label": "Unity AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "roblox-ai",
+      "type": "custom",
+      "position": {
+        "x": 1600,
+        "y": 100
+      },
+      "data": {
+        "label": "Roblox AI Studio",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "alphafold",
+      "type": "custom",
+      "position": {
+        "x": 1400,
+        "y": 600
+      },
+      "data": {
+        "label": "AlphaFold 3",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "alphaproteo",
+      "type": "custom",
+      "position": {
+        "x": 1600,
+        "y": 600
+      },
+      "data": {
+        "label": "AlphaProteo",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "google-ai-co-scientist",
+      "type": "custom",
+      "position": {
+        "x": 1600,
+        "y": 700
+      },
+      "data": {
+        "label": "Google AI Co-Scientist",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "notebooklm",
+      "type": "custom",
+      "position": {
+        "x": 1800,
+        "y": 600
+      },
+      "data": {
+        "label": "NotebookLM",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "harvey",
+      "type": "custom",
+      "position": {
+        "x": 1400,
+        "y": 800
+      },
+      "data": {
+        "label": "Harvey AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "klarna-ai",
+      "type": "custom",
+      "position": {
+        "x": 1000,
+        "y": 800
+      },
+      "data": {
+        "label": "Klarna AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "langchain",
+      "type": "custom",
+      "position": {
+        "x": 459.8798179617665,
+        "y": 500
+      },
+      "data": {
+        "label": "LangChain",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "crewai",
+      "type": "custom",
+      "position": {
+        "x": 100,
+        "y": 500
+      },
+      "data": {
+        "label": "CrewAI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "autogpt",
+      "type": "custom",
+      "position": {
+        "x": 270.72169751788965,
+        "y": 500
+      },
+      "data": {
+        "label": "AutoGPT",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "autogen",
+      "type": "custom",
+      "position": {
+        "x": 0,
+        "y": 600
+      },
+      "data": {
+        "label": "Microsoft AutoGen",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "perplexity",
+      "type": "custom",
+      "position": {
+        "x": 200,
+        "y": 500
+      },
+      "data": {
+        "label": "Perplexity",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "claude-research",
+      "type": "custom",
+      "position": {
+        "x": 350,
+        "y": 500
+      },
+      "data": {
+        "label": "Claude Research",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "gemini-deep-research",
+      "type": "custom",
+      "position": {
+        "x": 500,
+        "y": 500
+      },
+      "data": {
+        "label": "Gemini Deep Research",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "alexa",
+      "type": "custom",
+      "position": {
+        "x": 300,
+        "y": 400
+      },
+      "data": {
+        "label": "Amazon Alexa",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "google-assistant",
+      "type": "custom",
+      "position": {
+        "x": 450,
+        "y": 400
+      },
+      "data": {
+        "label": "Google Assistant",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "elevenlabs",
+      "type": "custom",
+      "position": {
+        "x": 600,
+        "y": 400
+      },
+      "data": {
+        "label": "ElevenLabs",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "zapier",
+      "type": "custom",
+      "position": {
+        "x": 97.44026140364292,
+        "y": 600
+      },
+      "data": {
+        "label": "Zapier",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "make",
+      "type": "custom",
+      "position": {
+        "x": 786.0116458177639,
+        "y": 600
+      },
+      "data": {
+        "label": "Make",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "power-automate",
+      "type": "custom",
+      "position": {
+        "x": 308.3841350089398,
+        "y": 700
+      },
+      "data": {
+        "label": "Power Automate",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "n8n",
+      "type": "custom",
+      "position": {
+        "x": 838.4589336041106,
+        "y": 700
+      },
+      "data": {
+        "label": "n8n",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "recursion",
+      "type": "custom",
+      "position": {
+        "x": 1000,
+        "y": 600
+      },
+      "data": {
+        "label": "Recursion OS",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "atomwise",
+      "type": "custom",
+      "position": {
+        "x": 800,
+        "y": 600
+      },
+      "data": {
+        "label": "Atomwise AtomNet",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "insilico",
+      "type": "custom",
+      "position": {
+        "x": 1200,
+        "y": 600
+      },
+      "data": {
+        "label": "Insilico Medicine",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "quantconnect",
+      "type": "custom",
+      "position": {
+        "x": 1600,
+        "y": 800
+      },
+      "data": {
+        "label": "QuantConnect",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "alpaca",
+      "type": "custom",
+      "position": {
+        "x": 1800,
+        "y": 800
+      },
+      "data": {
+        "label": "Alpaca Markets",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "numerai",
+      "type": "custom",
+      "position": {
+        "x": 1800,
+        "y": 900
+      },
+      "data": {
+        "label": "Numerai",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "tempus",
+      "type": "custom",
+      "position": {
+        "x": 1200,
+        "y": 800
+      },
+      "data": {
+        "label": "Tempus AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "pathai",
+      "type": "custom",
+      "position": {
+        "x": 1200,
+        "y": 900
+      },
+      "data": {
+        "label": "PathAI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "paige",
+      "type": "custom",
+      "position": {
+        "x": 1400,
+        "y": 900
+      },
+      "data": {
+        "label": "Paige AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "vizai",
+      "type": "custom",
+      "position": {
+        "x": 1000,
+        "y": 900
+      },
+      "data": {
+        "label": "Viz.ai",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "casetext",
+      "type": "custom",
+      "position": {
+        "x": 1600,
+        "y": 900
+      },
+      "data": {
+        "label": "Casetext CoCounsel",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "lexmachina",
+      "type": "custom",
+      "position": {
+        "x": 1600,
+        "y": 1000
+      },
+      "data": {
+        "label": "Lex Machina",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "robinai",
+      "type": "custom",
+      "position": {
+        "x": 1400,
+        "y": 1000
+      },
+      "data": {
+        "label": "Robin AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "asi-alliance",
+      "type": "custom",
+      "position": {
+        "x": 700,
+        "y": 800
+      },
+      "data": {
+        "label": "ASI Alliance (FET/AGIX/OCEAN)",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "materials-informatics",
+      "type": "custom",
+      "position": {
+        "x": 1200,
+        "y": 400
+      },
+      "data": {
+        "label": "Materials Informatics Platforms",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "fashion-platforms",
+      "type": "custom",
+      "position": {
+        "x": 1400,
+        "y": 200
+      },
+      "data": {
+        "label": "AI Fashion Platforms",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "pinecone",
+      "type": "custom",
+      "position": {
+        "x": 36.3079985186987,
+        "y": 800
+      },
+      "data": {
+        "label": "Pinecone",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "weaviate",
+      "type": "custom",
+      "position": {
+        "x": 73.75547898034473,
+        "y": 800
+      },
+      "data": {
+        "label": "Weaviate",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "chromadb",
+      "type": "custom",
+      "position": {
+        "x": 61.85484886996484,
+        "y": 800
+      },
+      "data": {
+        "label": "ChromaDB",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "milvus",
+      "type": "custom",
+      "position": {
+        "x": 244.75552309804561,
+        "y": 900
+      },
+      "data": {
+        "label": "Milvus/Zilliz",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "qdrant",
+      "type": "custom",
+      "position": {
+        "x": 373.40395847157026,
+        "y": 900
+      },
+      "data": {
+        "label": "Qdrant",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "elasticsearch",
+      "type": "custom",
+      "position": {
+        "x": 885.6640474513928,
+        "y": 900
+      },
+      "data": {
+        "label": "Elasticsearch",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "promptperfect",
+      "type": "custom",
+      "position": {
+        "x": 62.25451210445998,
+        "y": 800
+      },
+      "data": {
+        "label": "PromptPerfect",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "promptbase",
+      "type": "custom",
+      "position": {
+        "x": 897.5025455434096,
+        "y": 800
+      },
+      "data": {
+        "label": "PromptBase",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "langsmith",
+      "type": "custom",
+      "position": {
+        "x": 415.6581760720808,
+        "y": 900
+      },
+      "data": {
+        "label": "LangSmith",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "dspy",
+      "type": "custom",
+      "position": {
+        "x": 816.4211952436373,
+        "y": 900
+      },
+      "data": {
+        "label": "DSPy",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "scikit-learn",
+      "type": "custom",
+      "position": {
+        "x": 135.69290648764132,
+        "y": 1000
+      },
+      "data": {
+        "label": "Scikit-learn",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "xgboost",
+      "type": "custom",
+      "position": {
+        "x": 100,
+        "y": 1000
+      },
+      "data": {
+        "label": "XGBoost",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "lightgbm",
+      "type": "custom",
+      "position": {
+        "x": 300,
+        "y": 1000
+      },
+      "data": {
+        "label": "LightGBM",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "tensorflow",
+      "type": "custom",
+      "position": {
+        "x": 500,
+        "y": 1000
+      },
+      "data": {
+        "label": "TensorFlow",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "pytorch",
+      "type": "custom",
+      "position": {
+        "x": 700,
+        "y": 1000
+      },
+      "data": {
+        "label": "PyTorch",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "john-deere-ops",
+      "type": "custom",
+      "position": {
+        "x": 700,
+        "y": 1000
+      },
+      "data": {
+        "label": "John Deere Operations Center",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "climate-fieldview",
+      "type": "custom",
+      "position": {
+        "x": 900,
+        "y": 1000
+      },
+      "data": {
+        "label": "Climate FieldView",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "blue-river",
+      "type": "custom",
+      "position": {
+        "x": 700,
+        "y": 1100
+      },
+      "data": {
+        "label": "Blue River Technology",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "kubota-ai",
+      "type": "custom",
+      "position": {
+        "x": 900,
+        "y": 1100
+      },
+      "data": {
+        "label": "Kubota Smart Farming",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "siemens-senseye",
+      "type": "custom",
+      "position": {
+        "x": 1100,
+        "y": 1000
+      },
+      "data": {
+        "label": "Siemens Senseye",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "ge-predix",
+      "type": "custom",
+      "position": {
+        "x": 1300,
+        "y": 1000
+      },
+      "data": {
+        "label": "GE Predix Platform",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "siemens-copilot",
+      "type": "custom",
+      "position": {
+        "x": 1100,
+        "y": 1100
+      },
+      "data": {
+        "label": "Siemens Industrial Copilot",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "sap-digital-mfg",
+      "type": "custom",
+      "position": {
+        "x": 1300,
+        "y": 1100
+      },
+      "data": {
+        "label": "SAP Digital Manufacturing",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "procore",
+      "type": "custom",
+      "position": {
+        "x": 1700,
+        "y": 1000
+      },
+      "data": {
+        "label": "Procore",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "autodesk-construction",
+      "type": "custom",
+      "position": {
+        "x": 1900,
+        "y": 1000
+      },
+      "data": {
+        "label": "Autodesk Construction Cloud",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "zillow-zestimate",
+      "type": "custom",
+      "position": {
+        "x": 2100,
+        "y": 1000
+      },
+      "data": {
+        "label": "Zillow Zestimate",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "plangrid",
+      "type": "custom",
+      "position": {
+        "x": 1700,
+        "y": 1100
+      },
+      "data": {
+        "label": "PlanGrid",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "gridwise",
+      "type": "custom",
+      "position": {
+        "x": 2300,
+        "y": 1000
+      },
+      "data": {
+        "label": "GridWise",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "deepmind-energy",
+      "type": "custom",
+      "position": {
+        "x": 2500,
+        "y": 1000
+      },
+      "data": {
+        "label": "DeepMind Energy",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "ibm-hyref",
+      "type": "custom",
+      "position": {
+        "x": 2700,
+        "y": 1000
+      },
+      "data": {
+        "label": "IBM HyREF",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "schneider-ecostruxure",
+      "type": "custom",
+      "position": {
+        "x": 2300,
+        "y": 1100
+      },
+      "data": {
+        "label": "Schneider EcoStruxure",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "edge-ai",
+      "type": "custom",
+      "position": {
+        "x": 900,
+        "y": 122.13984344926337
+      },
+      "data": {
+        "label": "Edge AI Deployment",
+        "nodeType": "technique",
+        "category": "Infrastructure",
+        "domains": []
+      }
+    },
+    {
+      "id": "robotics",
+      "type": "custom",
+      "position": {
+        "x": 900,
+        "y": 100
+      },
+      "data": {
+        "label": "Autonomous Humanoid Robotics",
+        "nodeType": "application",
+        "category": "Robotics",
+        "domains": [
+          "Manufacturing",
+          "Logistics"
+        ]
+      }
+    },
+    {
+      "id": "autonomous-vehicles",
+      "type": "custom",
+      "position": {
+        "x": 1100,
+        "y": 100
+      },
+      "data": {
+        "label": "Self-Driving Perception & Planning",
+        "nodeType": "application",
+        "category": "Robotics",
+        "domains": [
+          "Automotive",
+          "Transportation"
+        ]
+      }
+    },
+    {
+      "id": "tesla-optimus",
+      "type": "custom",
+      "position": {
+        "x": 900,
+        "y": 0
+      },
+      "data": {
+        "label": "Tesla Optimus",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "tesla-fsd",
+      "type": "custom",
+      "position": {
+        "x": 1100,
+        "y": 200
+      },
+      "data": {
+        "label": "Tesla FSD",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "waymo",
+      "type": "custom",
+      "position": {
+        "x": 1300,
+        "y": 200
+      },
+      "data": {
+        "label": "Waymo Driver",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "nvidia-cosmos",
+      "type": "custom",
+      "position": {
+        "x": 1100,
+        "y": 0
+      },
+      "data": {
+        "label": "NVIDIA Cosmos",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "wordware",
+      "type": "custom",
+      "position": {
+        "x": 429.3649770752315,
+        "y": 1200
+      },
+      "data": {
+        "label": "Wordware",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "autodraw",
+      "type": "custom",
+      "position": {
+        "x": 1600,
+        "y": 400
+      },
+      "data": {
+        "label": "Google AutoDraw",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "prisma-ai",
+      "type": "custom",
+      "position": {
+        "x": 1800,
+        "y": 500
+      },
+      "data": {
+        "label": "Prisma",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "amazon-go",
+      "type": "custom",
+      "position": {
+        "x": 1200,
+        "y": 1200
+      },
+      "data": {
+        "label": "Amazon Go",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "google-duplex",
+      "type": "custom",
+      "position": {
+        "x": 750,
+        "y": 400
+      },
+      "data": {
+        "label": "Google Duplex",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "photoscan",
+      "type": "custom",
+      "position": {
+        "x": 950,
+        "y": 100
+      },
+      "data": {
+        "label": "PhotoScan by Google",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "legora",
+      "type": "custom",
+      "position": {
+        "x": 1800,
+        "y": 800
+      },
+      "data": {
+        "label": "Legora (formerly Leya)",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "greptile",
+      "type": "custom",
+      "position": {
+        "x": 1150,
+        "y": 700
+      },
+      "data": {
+        "label": "Greptile",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "yonedalabs",
+      "type": "custom",
+      "position": {
+        "x": 1000,
+        "y": 700
+      },
+      "data": {
+        "label": "YonedaLabs",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "sitegpt",
+      "type": "custom",
+      "position": {
+        "x": 56.52550959786984,
+        "y": 1200
+      },
+      "data": {
+        "label": "SiteGPT",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "formula-bot",
+      "type": "custom",
+      "position": {
+        "x": 150,
+        "y": 1200
+      },
+      "data": {
+        "label": "Formula Bot",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "logoai",
+      "type": "custom",
+      "position": {
+        "x": 350,
+        "y": 1200
+      },
+      "data": {
+        "label": "LogoAI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "48hourslogo",
+      "type": "custom",
+      "position": {
+        "x": 550,
+        "y": 1200
+      },
+      "data": {
+        "label": "48hourslogo",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "artisse-ai",
+      "type": "custom",
+      "position": {
+        "x": 2200,
+        "y": 400
+      },
+      "data": {
+        "label": "Artisse AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "vivi-ai",
+      "type": "custom",
+      "position": {
+        "x": 2400,
+        "y": 400
+      },
+      "data": {
+        "label": "Vivi AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "kling-ai",
+      "type": "custom",
+      "position": {
+        "x": 1600,
+        "y": 500
+      },
+      "data": {
+        "label": "KLING AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "swapface",
+      "type": "custom",
+      "position": {
+        "x": 2000,
+        "y": 500
+      },
+      "data": {
+        "label": "Swapface",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "luma-dream",
+      "type": "custom",
+      "position": {
+        "x": 1600,
+        "y": 600
+      },
+      "data": {
+        "label": "Luma Dream Machine",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "hailuo-ai",
+      "type": "custom",
+      "position": {
+        "x": 1400,
+        "y": 500
+      },
+      "data": {
+        "label": "Hailuo AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "deepgram",
+      "type": "custom",
+      "position": {
+        "x": 800,
+        "y": 400
+      },
+      "data": {
+        "label": "Deepgram",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "ar-vr",
+      "type": "custom",
+      "position": {
+        "x": 1700,
+        "y": 500
+      },
+      "data": {
+        "label": "AI-Enhanced AR/VR Experiences",
+        "nodeType": "application",
+        "category": "XR",
+        "domains": [
+          "Gaming",
+          "Education",
+          "Training"
+        ]
+      }
+    },
+    {
+      "id": "vision-pro",
+      "type": "custom",
+      "position": {
+        "x": 1800,
+        "y": 400
+      },
+      "data": {
+        "label": "Apple Vision Pro",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    },
+    {
+      "id": "defi-ai",
+      "type": "custom",
+      "position": {
+        "x": 700,
+        "y": 700
+      },
+      "data": {
+        "label": "DeFi Trading & Portfolio Management",
+        "nodeType": "application",
+        "category": "Web3",
+        "domains": [
+          "Finance",
+          "Blockchain"
+        ]
+      }
+    },
+    {
+      "id": "conversational-ai",
+      "type": "custom",
+      "position": {
+        "x": 50,
+        "y": 50
+      },
+      "data": {
+        "label": "Conversational AI Systems",
+        "nodeType": "application",
+        "category": "Language",
+        "domains": [
+          "Technology",
+          "Customer Service"
+        ]
+      }
+    },
+    {
+      "id": "image-gen",
+      "type": "custom",
+      "position": {
+        "x": 500,
+        "y": 50
+      },
+      "data": {
+        "label": "AI Image Generation",
+        "nodeType": "application",
+        "category": "Creative",
+        "domains": [
+          "Art",
+          "Marketing",
+          "Media"
+        ]
+      }
+    },
+    {
+      "id": "computer-vision",
+      "type": "custom",
+      "position": {
+        "x": 9.78918179947334,
+        "y": -852.5858099471461
+      },
+      "data": {
+        "label": "Computer Vision",
+        "nodeType": "technique",
+        "category": "Technique",
+        "domains": []
+      }
+    },
+    {
+      "id": "knowledge-graphs",
+      "type": "custom",
+      "position": {
+        "x": 908.7446702734105,
+        "y": -896.4688965962222
+      },
+      "data": {
+        "label": "Knowledge Graphs",
+        "nodeType": "technique",
+        "category": "Technique",
+        "domains": []
+      }
+    },
+    {
+      "id": "telematics",
+      "type": "custom",
+      "position": {
+        "x": -647.7191857746586,
+        "y": 499.33043097950326
+      },
+      "data": {
+        "label": "Telematics & IoT",
+        "nodeType": "technique",
+        "category": "Technique",
+        "domains": []
+      }
+    },
+    {
+      "id": "clickup",
+      "type": "custom",
+      "position": {
+        "x": 769.8405836415122,
+        "y": -769.595086465702
+      },
+      "data": {
+        "label": "ClickUp",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Technology",
+          "Software"
+        ]
+      }
+    },
+    {
+      "id": "asana",
+      "type": "custom",
+      "position": {
+        "x": -412.60034884776167,
+        "y": -108.08321417245861
+      },
+      "data": {
+        "label": "Asana",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Technology",
+          "Software"
+        ]
+      }
+    },
+    {
+      "id": "notion-ai",
+      "type": "custom",
+      "position": {
+        "x": -71.15475844410742,
+        "y": -339.7542682473893
+      },
+      "data": {
+        "label": "Notion AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Technology",
+          "Software"
+        ]
+      }
+    },
+    {
+      "id": "monday-ai",
+      "type": "custom",
+      "position": {
+        "x": 913.012942979587,
+        "y": -744.0627807603719
+      },
+      "data": {
+        "label": "Monday.com AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Technology",
+          "Software"
+        ]
+      }
+    },
+    {
+      "id": "jira-ai",
+      "type": "custom",
+      "position": {
+        "x": -27.2849419904735,
+        "y": 222.17005509946694
+      },
+      "data": {
+        "label": "Jira (Atlassian Intelligence)",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Technology",
+          "Software"
+        ]
+      }
+    },
+    {
+      "id": "figma-ai",
+      "type": "custom",
+      "position": {
+        "x": -207.01944320922644,
+        "y": 419.0798516661821
+      },
+      "data": {
+        "label": "Figma AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Technology",
+          "Art"
+        ]
+      }
+    },
+    {
+      "id": "canva-magic",
+      "type": "custom",
+      "position": {
+        "x": 177.99527098007843,
+        "y": -827.5284268912358
+      },
+      "data": {
+        "label": "Canva Magic Studio",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Technology",
+          "Art",
+          "Marketing"
+        ]
+      }
+    },
+    {
+      "id": "adobe-firefly",
+      "type": "custom",
+      "position": {
+        "x": 60.63128178909233,
+        "y": 54.34586773410638
+      },
+      "data": {
+        "label": "Adobe Firefly",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Technology",
+          "Art"
+        ]
+      }
+    },
+    {
+      "id": "framer-ai",
+      "type": "custom",
+      "position": {
+        "x": 935.9359657199411,
+        "y": 75.17217905644543
+      },
+      "data": {
+        "label": "Framer AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Technology",
+          "Software"
+        ]
+      }
+    },
+    {
+      "id": "spline-ai",
+      "type": "custom",
+      "position": {
+        "x": -557.8653153338054,
+        "y": 887.6240854918001
+      },
+      "data": {
+        "label": "Spline AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Technology",
+          "Art",
+          "Gaming"
+        ]
+      }
+    },
+    {
+      "id": "myfitnesspal-ai",
+      "type": "custom",
+      "position": {
+        "x": 912.4749281979061,
+        "y": 735.2769033018353
+      },
+      "data": {
+        "label": "MyFitnessPal AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Medical",
+          "Technology"
+        ]
+      }
+    },
+    {
+      "id": "strava-ai",
+      "type": "custom",
+      "position": {
+        "x": -944.7094967849696,
+        "y": 440.5363513410189
+      },
+      "data": {
+        "label": "Strava Athlete Intelligence",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Medical",
+          "Technology"
+        ]
+      }
+    },
+    {
+      "id": "whoop",
+      "type": "custom",
+      "position": {
+        "x": 17.83591250047948,
+        "y": -974.0695418053922
+      },
+      "data": {
+        "label": "WHOOP",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Medical",
+          "Technology"
+        ]
+      }
+    },
+    {
+      "id": "apple-fitness-ai",
+      "type": "custom",
+      "position": {
+        "x": -849.078519004598,
+        "y": 244.48050493080996
+      },
+      "data": {
+        "label": "Apple Fitness+",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Medical",
+          "Technology"
+        ]
+      }
+    },
+    {
+      "id": "peloton-ai",
+      "type": "custom",
+      "position": {
+        "x": -303.5896222791945,
+        "y": 396.7176570408451
+      },
+      "data": {
+        "label": "Peloton AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Medical",
+          "Technology"
+        ]
+      }
+    },
+    {
+      "id": "viz-ai",
+      "type": "custom",
+      "position": {
+        "x": -560.6499129472807,
+        "y": 804.9861024581855
+      },
+      "data": {
+        "label": "Viz.ai",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Medical"
+        ]
+      }
+    },
+    {
+      "id": "tempus-ai",
+      "type": "custom",
+      "position": {
+        "x": -609.0021308298361,
+        "y": -207.15983166023614
+      },
+      "data": {
+        "label": "Tempus AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Medical",
+          "Pharma"
+        ]
+      }
+    },
+    {
+      "id": "babylon-health",
+      "type": "custom",
+      "position": {
+        "x": 492.7818555322117,
+        "y": 896.4281462502579
+      },
+      "data": {
+        "label": "Babylon Health",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Medical"
+        ]
+      }
+    },
+    {
+      "id": "ada-health",
+      "type": "custom",
+      "position": {
+        "x": 81.99138178234307,
+        "y": 451.5199074949421
+      },
+      "data": {
+        "label": "Ada Health",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Medical"
+        ]
+      }
+    },
+    {
+      "id": "lemonade-ai",
+      "type": "custom",
+      "position": {
+        "x": 864.2685088183023,
+        "y": 960.1258463751906
+      },
+      "data": {
+        "label": "Lemonade AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Finance",
+          "Insurance"
+        ]
+      }
+    },
+    {
+      "id": "root-insurance",
+      "type": "custom",
+      "position": {
+        "x": 835.1140009479964,
+        "y": -895.3191960235554
+      },
+      "data": {
+        "label": "Root Insurance",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Finance",
+          "Insurance",
+          "Automotive"
+        ]
+      }
+    },
+    {
+      "id": "clearcover",
+      "type": "custom",
+      "position": {
+        "x": -39.2094576074951,
+        "y": -726.0865377515634
+      },
+      "data": {
+        "label": "Clearcover",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Finance",
+          "Insurance"
+        ]
+      }
+    },
+    {
+      "id": "tractable",
+      "type": "custom",
+      "position": {
+        "x": 843.1743850004523,
+        "y": 653.2669323373693
+      },
+      "data": {
+        "label": "Tractable",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Finance",
+          "Insurance",
+          "Automotive"
+        ]
+      }
+    },
+    {
+      "id": "workday-ai",
+      "type": "custom",
+      "position": {
+        "x": 469.3077843447827,
+        "y": -219.2180040415965
+      },
+      "data": {
+        "label": "Workday AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Technology",
+          "Software"
+        ]
+      }
+    },
+    {
+      "id": "bamboohr",
+      "type": "custom",
+      "position": {
+        "x": -14.31140137160412,
+        "y": 761.565205296738
+      },
+      "data": {
+        "label": "BambooHR",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Technology",
+          "Software"
+        ]
+      }
+    },
+    {
+      "id": "adp-ai",
+      "type": "custom",
+      "position": {
+        "x": 578.612168662481,
+        "y": 457.99268960612903
+      },
+      "data": {
+        "label": "ADP AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Technology",
+          "Software",
+          "Finance"
+        ]
+      }
+    },
+    {
+      "id": "duolingo-max",
+      "type": "custom",
+      "position": {
+        "x": -343.4042589684108,
+        "y": -673.9717058956995
+      },
+      "data": {
+        "label": "Duolingo Max",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Education"
+        ]
+      }
+    },
+    {
+      "id": "coursera-ai",
+      "type": "custom",
+      "position": {
+        "x": 778.8695376434327,
+        "y": 595.7634507619148
+      },
+      "data": {
+        "label": "Coursera AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Education",
+          "Technology"
+        ]
+      }
+    },
+    {
+      "id": "khan-academy-ai",
+      "type": "custom",
+      "position": {
+        "x": -325.7018385940564,
+        "y": -217.87715137804662
+      },
+      "data": {
+        "label": "Khan Academy (Khanmigo)",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Education"
+        ]
+      }
+    },
+    {
+      "id": "harvey-ai",
+      "type": "custom",
+      "position": {
+        "x": 214.1474051898399,
+        "y": 908.5119550416994
+      },
+      "data": {
+        "label": "Harvey AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Legal"
+        ]
+      }
+    },
+    {
+      "id": "lexisnexis-ai",
+      "type": "custom",
+      "position": {
+        "x": -790.976176146426,
+        "y": 568.9528345549384
+      },
+      "data": {
+        "label": "LexisNexis AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Legal"
+        ]
+      }
+    },
+    {
+      "id": "image-recognition",
+      "type": "custom",
+      "position": {
+        "x": -482.79769042127896,
+        "y": -253.92714745995409
+      },
+      "data": {
+        "label": "Image Recognition",
+        "nodeType": "application",
+        "category": "Application",
+        "domains": []
+      }
+    },
+    {
+      "id": "iot-analytics",
+      "type": "custom",
+      "position": {
+        "x": -221.04156113309784,
+        "y": -279.3392232079706
+      },
+      "data": {
+        "label": "Iot Analytics",
+        "nodeType": "application",
+        "category": "Application",
+        "domains": []
+      }
+    },
+    {
+      "id": "codewhisperer-ai",
+      "type": "custom",
+      "position": {
+        "x": 3000,
+        "y": 1200
+      },
+      "data": {
+        "label": "CodeWhisperer AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Developer Tools"
+        ]
+      }
+    },
+    {
+      "id": "voiceclone-pro",
+      "type": "custom",
+      "position": {
+        "x": 3180,
+        "y": 1200
+      },
+      "data": {
+        "label": "VoiceClone Pro",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Marketing"
+        ]
+      }
+    },
+    {
+      "id": "paystream",
+      "type": "custom",
+      "position": {
+        "x": 3360,
+        "y": 1200
+      },
+      "data": {
+        "label": "PayStream",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Finance"
+        ]
+      }
+    },
+    {
+      "id": "budgetmaster",
+      "type": "custom",
+      "position": {
+        "x": 3540,
+        "y": 1200
+      },
+      "data": {
+        "label": "BudgetMaster",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Finance"
+        ]
+      }
+    },
+    {
+      "id": "fittracker-pro",
+      "type": "custom",
+      "position": {
+        "x": 3720,
+        "y": 1200
+      },
+      "data": {
+        "label": "FitTracker Pro",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "mindfulmoments",
+      "type": "custom",
+      "position": {
+        "x": 3900,
+        "y": 1200
+      },
+      "data": {
+        "label": "MindfulMoments",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "shopsmart",
+      "type": "custom",
+      "position": {
+        "x": 4080,
+        "y": 1200
+      },
+      "data": {
+        "label": "ShopSmart",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Sales"
+        ]
+      }
+    },
+    {
+      "id": "inventoryflow",
+      "type": "custom",
+      "position": {
+        "x": 4260,
+        "y": 1200
+      },
+      "data": {
+        "label": "InventoryFlow",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Productivity"
+        ]
+      }
+    },
+    {
+      "id": "designstudio",
+      "type": "custom",
+      "position": {
+        "x": 4440,
+        "y": 1200
+      },
+      "data": {
+        "label": "DesignStudio",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Productivity"
+        ]
+      }
+    },
+    {
+      "id": "videoedit-pro",
+      "type": "custom",
+      "position": {
+        "x": 4620,
+        "y": 1200
+      },
+      "data": {
+        "label": "VideoEdit Pro",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Marketing"
+        ]
+      }
+    },
+    {
+      "id": "taskflow",
+      "type": "custom",
+      "position": {
+        "x": 4800,
+        "y": 1200
+      },
+      "data": {
+        "label": "TaskFlow",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Productivity"
+        ]
+      }
+    },
+    {
+      "id": "notemaster",
+      "type": "custom",
+      "position": {
+        "x": 4980,
+        "y": 1200
+      },
+      "data": {
+        "label": "NoteMaster",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Productivity"
+        ]
+      }
+    },
+    {
+      "id": "puzzlequest",
+      "type": "custom",
+      "position": {
+        "x": 5160,
+        "y": 1200
+      },
+      "data": {
+        "label": "PuzzleQuest",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Gaming"
+        ]
+      }
+    },
+    {
+      "id": "gamestats",
+      "type": "custom",
+      "position": {
+        "x": 5340,
+        "y": 1200
+      },
+      "data": {
+        "label": "GameStats",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Developer Tools"
+        ]
+      }
+    },
+    {
+      "id": "chatsecure",
+      "type": "custom",
+      "position": {
+        "x": 5520,
+        "y": 1200
+      },
+      "data": {
+        "label": "ChatSecure",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Communication"
+        ]
+      }
+    },
+    {
+      "id": "meetingflow",
+      "type": "custom",
+      "position": {
+        "x": 3000,
+        "y": 1320
+      },
+      "data": {
+        "label": "MeetingFlow",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Creative"
+        ]
+      }
+    },
+    {
+      "id": "revenuebot-ai",
+      "type": "custom",
+      "position": {
+        "x": 3180,
+        "y": 1320
+      },
+      "data": {
+        "label": "RevenueBot AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Sales"
+        ]
+      }
+    },
+    {
+      "id": "emailcraft-ai",
+      "type": "custom",
+      "position": {
+        "x": 3360,
+        "y": 1320
+      },
+      "data": {
+        "label": "EmailCraft AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Marketing"
+        ]
+      }
+    },
+    {
+      "id": "invoiceflow",
+      "type": "custom",
+      "position": {
+        "x": 3540,
+        "y": 1320
+      },
+      "data": {
+        "label": "InvoiceFlow",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Finance"
+        ]
+      }
+    },
+    {
+      "id": "socialscheduler",
+      "type": "custom",
+      "position": {
+        "x": 3720,
+        "y": 1320
+      },
+      "data": {
+        "label": "SocialScheduler",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Marketing"
+        ]
+      }
+    },
+    {
+      "id": "codesnippet-manager",
+      "type": "custom",
+      "position": {
+        "x": 3900,
+        "y": 1320
+      },
+      "data": {
+        "label": "CodeSnippet Manager",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Developer Tools"
+        ]
+      }
+    },
+    {
+      "id": "fitnesstracker-pro",
+      "type": "custom",
+      "position": {
+        "x": 4080,
+        "y": 1320
+      },
+      "data": {
+        "label": "FitnessTracker Pro",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "localbusiness-hub",
+      "type": "custom",
+      "position": {
+        "x": 4260,
+        "y": 1320
+      },
+      "data": {
+        "label": "LocalBusiness Hub",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Marketing"
+        ]
+      }
+    },
+    {
+      "id": "coursecreator",
+      "type": "custom",
+      "position": {
+        "x": 4440,
+        "y": 1320
+      },
+      "data": {
+        "label": "CourseCreator",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Education"
+        ]
+      }
+    },
+    {
+      "id": "synthflow-ai",
+      "type": "custom",
+      "position": {
+        "x": 4620,
+        "y": 1320
+      },
+      "data": {
+        "label": "Synthflow AI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Developer Tools"
+        ]
+      }
+    },
+    {
+      "id": "documind",
+      "type": "custom",
+      "position": {
+        "x": 4800,
+        "y": 1320
+      },
+      "data": {
+        "label": "DocuMind",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Legal"
+        ]
+      }
+    },
+    {
+      "id": "deliverydash",
+      "type": "custom",
+      "position": {
+        "x": 4980,
+        "y": 1320
+      },
+      "data": {
+        "label": "DeliveryDash",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "E-commerce"
+        ]
+      }
+    },
+    {
+      "id": "propertyflow",
+      "type": "custom",
+      "position": {
+        "x": 5160,
+        "y": 1320
+      },
+      "data": {
+        "label": "PropertyFlow",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Developer Tools"
+        ]
+      }
+    },
+    {
+      "id": "healthconnect",
+      "type": "custom",
+      "position": {
+        "x": 5340,
+        "y": 1320
+      },
+      "data": {
+        "label": "HealthConnect",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "edustream",
+      "type": "custom",
+      "position": {
+        "x": 5520,
+        "y": 1320
+      },
+      "data": {
+        "label": "EduStream",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Education"
+        ]
+      }
+    },
+    {
+      "id": "cryptowallet-pro",
+      "type": "custom",
+      "position": {
+        "x": 3000,
+        "y": 1440
+      },
+      "data": {
+        "label": "CryptoWallet Pro",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Finance"
+        ]
+      }
+    },
+    {
+      "id": "foodienetwork",
+      "type": "custom",
+      "position": {
+        "x": 3180,
+        "y": 1440
+      },
+      "data": {
+        "label": "FoodieNetwork",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Communication"
+        ]
+      }
+    },
+    {
+      "id": "greenenergy-solutions",
+      "type": "custom",
+      "position": {
+        "x": 3360,
+        "y": 1440
+      },
+      "data": {
+        "label": "GreenEnergy Solutions",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Productivity"
+        ]
+      }
+    },
+    {
+      "id": "aiflow-beta",
+      "type": "custom",
+      "position": {
+        "x": 3540,
+        "y": 1440
+      },
+      "data": {
+        "label": "AIFlow Beta",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Productivity"
+        ]
+      }
+    },
+    {
+      "id": "shoppinglist-pro",
+      "type": "custom",
+      "position": {
+        "x": 3720,
+        "y": 1440
+      },
+      "data": {
+        "label": "ShoppingList Pro",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Productivity"
+        ]
+      }
+    },
+    {
+      "id": "remotework-hub",
+      "type": "custom",
+      "position": {
+        "x": 3900,
+        "y": 1440
+      },
+      "data": {
+        "label": "RemoteWork Hub",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Productivity"
+        ]
+      }
+    },
+    {
+      "id": "cryptotracker",
+      "type": "custom",
+      "position": {
+        "x": 4080,
+        "y": 1440
+      },
+      "data": {
+        "label": "CryptoTracker",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Finance"
+        ]
+      }
+    },
+    {
+      "id": "eventplanner-pro",
+      "type": "custom",
+      "position": {
+        "x": 4260,
+        "y": 1440
+      },
+      "data": {
+        "label": "EventPlanner Pro",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Productivity"
+        ]
+      }
+    },
+    {
+      "id": "languagelearner",
+      "type": "custom",
+      "position": {
+        "x": 4440,
+        "y": 1440
+      },
+      "data": {
+        "label": "LanguageLearner",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Education"
+        ]
+      }
+    },
+    {
+      "id": "opencodeai",
+      "type": "custom",
+      "position": {
+        "x": 4620,
+        "y": 1440
+      },
+      "data": {
+        "label": "OpenCodeAI",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Developer Tools"
+        ]
+      }
+    },
+    {
+      "id": "databasevisualizer",
+      "type": "custom",
+      "position": {
+        "x": 4800,
+        "y": 1440
+      },
+      "data": {
+        "label": "DatabaseVisualizer",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Photography"
+        ]
+      }
+    },
+    {
+      "id": "apitester-pro",
+      "type": "custom",
+      "position": {
+        "x": 4980,
+        "y": 1440
+      },
+      "data": {
+        "label": "APITester Pro",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Developer Tools"
+        ]
+      }
+    },
+    {
+      "id": "weatherwidget",
+      "type": "custom",
+      "position": {
+        "x": 5160,
+        "y": 1440
+      },
+      "data": {
+        "label": "WeatherWidget",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": [
+          "Developer Tools"
+        ]
+      }
+    },
+    {
+      "id": "timetracker-simple",
+      "type": "custom",
+      "position": {
+        "x": 5340,
+        "y": 1440
+      },
+      "data": {
+        "label": "TimeTracker Simple",
+        "nodeType": "product",
+        "category": "Product",
+        "domains": []
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-llm-conv",
+      "source": "llm",
+      "target": "conversational-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e1",
+      "source": "conversational-ai",
+      "target": "gpt4",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e2",
+      "source": "conversational-ai",
+      "target": "claude",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e3",
+      "source": "conversational-ai",
+      "target": "gemini",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-diff-img",
+      "source": "diffusion",
+      "target": "image-gen",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e4",
+      "source": "image-gen",
+      "target": "dalle",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e5",
+      "source": "image-gen",
+      "target": "midjourney",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e6",
+      "source": "image-gen",
+      "target": "stable-diffusion",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-img-imagen",
+      "source": "image-gen",
+      "target": "imagen-4",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e7",
+      "source": "attention",
+      "target": "llm",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e8",
+      "source": "rlhf",
+      "target": "llm",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-rag-llm",
+      "source": "rag",
+      "target": "llm",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-prompt-llm",
+      "source": "prompt-engineering",
+      "target": "llm",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-context-llm",
+      "source": "context-engineering",
+      "target": "llm",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-finetune-llm",
+      "source": "fine-tuning",
+      "target": "llm",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-vector-rag",
+      "source": "vector-embeddings",
+      "target": "rag",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e9",
+      "source": "noise-to-signal",
+      "target": "diffusion",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e10",
+      "source": "latent-space",
+      "target": "diffusion",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e11",
+      "source": "controlnet",
+      "target": "diffusion",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e12",
+      "source": "transformer",
+      "target": "llm",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e13",
+      "source": "transformer",
+      "target": "diffusion",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e60",
+      "source": "llm",
+      "target": "edge-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "combines"
+      }
+    },
+    {
+      "id": "e61",
+      "source": "diffusion",
+      "target": "edge-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "combines"
+      }
+    },
+    {
+      "id": "e14",
+      "source": "llm",
+      "target": "vision-language",
+      "type": "custom",
+      "data": {
+        "edgeType": "combines"
+      }
+    },
+    {
+      "id": "e15",
+      "source": "diffusion",
+      "target": "vision-language",
+      "type": "custom",
+      "data": {
+        "edgeType": "combines"
+      }
+    },
+    {
+      "id": "e16",
+      "source": "llm",
+      "target": "code-execution",
+      "type": "custom",
+      "data": {
+        "edgeType": "combines"
+      }
+    },
+    {
+      "id": "e17",
+      "source": "llm",
+      "target": "speech-synthesis",
+      "type": "custom",
+      "data": {
+        "edgeType": "combines"
+      }
+    },
+    {
+      "id": "e18",
+      "source": "llm",
+      "target": "embodied-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "combines"
+      }
+    },
+    {
+      "id": "e19",
+      "source": "vision-language",
+      "target": "ar-vr",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e20",
+      "source": "code-execution",
+      "target": "ai-dev-tools",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e21",
+      "source": "code-execution",
+      "target": "ai-code-review",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-code-qa",
+      "source": "code-execution",
+      "target": "ai-qa-testing",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e22",
+      "source": "embodied-ai",
+      "target": "robotics",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e23",
+      "source": "vision-language",
+      "target": "fashion-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-speech-voice",
+      "source": "speech-synthesis",
+      "target": "voice-assistants",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e24",
+      "source": "llm",
+      "target": "autonomous-agents",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e25",
+      "source": "llm",
+      "target": "research-agents",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e26",
+      "source": "llm",
+      "target": "workflow-automation",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-multi-agent",
+      "source": "multi-agent",
+      "target": "autonomous-agents",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-multi-agent2",
+      "source": "multi-agent",
+      "target": "research-agents",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-computer-use",
+      "source": "computer-use",
+      "target": "autonomous-agents",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-computer-use2",
+      "source": "computer-use",
+      "target": "workflow-automation",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e27",
+      "source": "ai-dev-tools",
+      "target": "copilot",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e28",
+      "source": "ai-dev-tools",
+      "target": "cursor",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-dev-codeium",
+      "source": "ai-dev-tools",
+      "target": "codeium",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-dev-amazonq",
+      "source": "ai-dev-tools",
+      "target": "amazon-q",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-dev-tabnine",
+      "source": "ai-dev-tools",
+      "target": "tabnine",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-dev-jetbrains",
+      "source": "ai-dev-tools",
+      "target": "jetbrains-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-dev-replit",
+      "source": "ai-dev-tools",
+      "target": "replit-ghost",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-review-sonar",
+      "source": "ai-code-review",
+      "target": "sonarcloud",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-review-deep",
+      "source": "ai-code-review",
+      "target": "deepsource",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-review-codacy",
+      "source": "ai-code-review",
+      "target": "codacy",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-review-metabob",
+      "source": "ai-code-review",
+      "target": "metabob",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-dev-claude-code",
+      "source": "ai-dev-tools",
+      "target": "claude-code",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-qa-mabl",
+      "source": "ai-qa-testing",
+      "target": "mabl",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-qa-applitools",
+      "source": "ai-qa-testing",
+      "target": "applitools",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-qa-testim",
+      "source": "ai-qa-testing",
+      "target": "testim",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-qa-katalon",
+      "source": "ai-qa-testing",
+      "target": "katalon",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e29",
+      "source": "music-gen",
+      "target": "suno",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e30",
+      "source": "music-gen",
+      "target": "udio",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e31",
+      "source": "video-gen",
+      "target": "runway",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e32",
+      "source": "protein-folding",
+      "target": "alphafold",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-protein-alphaproteo",
+      "source": "protein-folding",
+      "target": "alphaproteo",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e33",
+      "source": "legal-ai",
+      "target": "harvey",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e34",
+      "source": "customer-service",
+      "target": "klarna-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e35",
+      "source": "robotics",
+      "target": "tesla-optimus",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e36",
+      "source": "robotics",
+      "target": "nvidia-cosmos",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e37",
+      "source": "ar-vr",
+      "target": "vision-pro",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e62",
+      "source": "game-ai",
+      "target": "nvidia-ace",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e63",
+      "source": "game-ai",
+      "target": "inworld-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e64",
+      "source": "game-ai",
+      "target": "unity-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e65",
+      "source": "game-ai",
+      "target": "roblox-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e38",
+      "source": "llm",
+      "target": "music-gen",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e39",
+      "source": "diffusion",
+      "target": "video-gen",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e40",
+      "source": "diffusion",
+      "target": "fashion-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e41",
+      "source": "llm",
+      "target": "game-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e42",
+      "source": "llm",
+      "target": "legal-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e43",
+      "source": "llm",
+      "target": "finance-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e44",
+      "source": "llm",
+      "target": "customer-service",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e45",
+      "source": "llm",
+      "target": "healthcare-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e46",
+      "source": "llm",
+      "target": "defi-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e47",
+      "source": "vision-language",
+      "target": "healthcare-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e48",
+      "source": "llm",
+      "target": "materials-science",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-llm-storybook",
+      "source": "llm",
+      "target": "storybook-gen",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-llm-world",
+      "source": "llm",
+      "target": "world-model-gen",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-llm-research-tools",
+      "source": "llm",
+      "target": "ai-research-tools",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-diffusion-storybook",
+      "source": "diffusion",
+      "target": "storybook-gen",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-diffusion-world",
+      "source": "diffusion",
+      "target": "world-model-gen",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-rag-knowledge",
+      "source": "rag",
+      "target": "knowledge-base-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-rag-search",
+      "source": "rag",
+      "target": "semantic-search",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-vector-search",
+      "source": "vector-embeddings",
+      "target": "semantic-search",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-supervised-fraud",
+      "source": "supervised-learning",
+      "target": "fraud-detection",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-supervised-rec",
+      "source": "supervised-learning",
+      "target": "recommendation-systems",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-unsupervised-anomaly",
+      "source": "unsupervised-learning",
+      "target": "anomaly-detection",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-reinforcement-rec",
+      "source": "reinforcement-learning",
+      "target": "recommendation-systems",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-ensemble-fraud",
+      "source": "ensemble-methods",
+      "target": "fraud-detection",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-timeseries-predict",
+      "source": "time-series",
+      "target": "predictive-analytics",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-deep-fraud",
+      "source": "deep-learning",
+      "target": "fraud-detection",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-deep-rec",
+      "source": "deep-learning",
+      "target": "recommendation-systems",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-vision-farming",
+      "source": "vision-language",
+      "target": "precision-farming",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-ml-farming",
+      "source": "supervised-learning",
+      "target": "precision-farming",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-iot-livestock",
+      "source": "unsupervised-learning",
+      "target": "livestock-monitoring",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-ml-maintenance",
+      "source": "supervised-learning",
+      "target": "predictive-maintenance",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-vision-quality",
+      "source": "deep-learning",
+      "target": "quality-control-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-rl-supply",
+      "source": "reinforcement-learning",
+      "target": "supply-chain-opt",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-vision-bim",
+      "source": "vision-language",
+      "target": "bim-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-ml-property",
+      "source": "ensemble-methods",
+      "target": "property-valuation",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-vision-safety",
+      "source": "deep-learning",
+      "target": "construction-safety",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-rl-grid",
+      "source": "reinforcement-learning",
+      "target": "smart-grid",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-ml-renewable",
+      "source": "time-series",
+      "target": "renewable-optimization",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e-ts-energy",
+      "source": "time-series",
+      "target": "energy-forecasting",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e53",
+      "source": "autonomous-agents",
+      "target": "customer-service",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e54",
+      "source": "multi-agent",
+      "target": "healthcare-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e55",
+      "source": "edge-ai",
+      "target": "robotics",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e56",
+      "source": "llm",
+      "target": "drug-discovery",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e57",
+      "source": "edge-ai",
+      "target": "ar-vr",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e66",
+      "source": "transformer",
+      "target": "protein-folding",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e67",
+      "source": "geometric-dl",
+      "target": "protein-folding",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e68",
+      "source": "evoformer",
+      "target": "protein-folding",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e69",
+      "source": "attention",
+      "target": "protein-folding",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e70",
+      "source": "vision-language",
+      "target": "autonomous-vehicles",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e71",
+      "source": "transformer",
+      "target": "autonomous-vehicles",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e72",
+      "source": "autonomous-vehicles",
+      "target": "tesla-fsd",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e73",
+      "source": "autonomous-vehicles",
+      "target": "waymo",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e74",
+      "source": "edge-ai",
+      "target": "autonomous-vehicles",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e75",
+      "source": "transformer",
+      "target": "evoformer",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e76",
+      "source": "transformer",
+      "target": "geometric-dl",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "e77",
+      "source": "autonomous-agents",
+      "target": "langchain",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e78",
+      "source": "autonomous-agents",
+      "target": "crewai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e79",
+      "source": "autonomous-agents",
+      "target": "autogpt",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e80",
+      "source": "autonomous-agents",
+      "target": "autogen",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-research-perplexity",
+      "source": "research-agents",
+      "target": "perplexity",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-research-claude",
+      "source": "research-agents",
+      "target": "claude-research",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-research-gemini",
+      "source": "research-agents",
+      "target": "gemini-deep-research",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-voice-alexa",
+      "source": "voice-assistants",
+      "target": "alexa",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-voice-google",
+      "source": "voice-assistants",
+      "target": "google-assistant",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-voice-eleven",
+      "source": "voice-assistants",
+      "target": "elevenlabs",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-workflow-zapier",
+      "source": "workflow-automation",
+      "target": "zapier",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-workflow-make",
+      "source": "workflow-automation",
+      "target": "make",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-workflow-power",
+      "source": "workflow-automation",
+      "target": "power-automate",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-workflow-n8n",
+      "source": "workflow-automation",
+      "target": "n8n",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e81",
+      "source": "drug-discovery",
+      "target": "recursion",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e82",
+      "source": "drug-discovery",
+      "target": "atomwise",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e83",
+      "source": "drug-discovery",
+      "target": "insilico",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e84",
+      "source": "finance-ai",
+      "target": "quantconnect",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e85",
+      "source": "finance-ai",
+      "target": "alpaca",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e86",
+      "source": "finance-ai",
+      "target": "numerai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e87",
+      "source": "healthcare-ai",
+      "target": "tempus",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e88",
+      "source": "healthcare-ai",
+      "target": "pathai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e89",
+      "source": "healthcare-ai",
+      "target": "paige",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e90",
+      "source": "healthcare-ai",
+      "target": "vizai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e91",
+      "source": "legal-ai",
+      "target": "casetext",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e92",
+      "source": "legal-ai",
+      "target": "lexmachina",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e93",
+      "source": "legal-ai",
+      "target": "robinai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e94",
+      "source": "defi-ai",
+      "target": "asi-alliance",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e95",
+      "source": "materials-science",
+      "target": "materials-informatics",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e96",
+      "source": "fashion-ai",
+      "target": "fashion-platforms",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-story-chatgpt",
+      "source": "storybook-gen",
+      "target": "chatgpt-storybook",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-story-childbook",
+      "source": "storybook-gen",
+      "target": "childbook-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-world-genie",
+      "source": "world-model-gen",
+      "target": "genie-3",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-science-co-scientist",
+      "source": "ai-research-tools",
+      "target": "google-ai-co-scientist",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-science-notebook",
+      "source": "ai-research-tools",
+      "target": "notebooklm",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-knowledge-pinecone",
+      "source": "knowledge-base-ai",
+      "target": "pinecone",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-knowledge-weaviate",
+      "source": "knowledge-base-ai",
+      "target": "weaviate",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-knowledge-chroma",
+      "source": "knowledge-base-ai",
+      "target": "chromadb",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-search-milvus",
+      "source": "semantic-search",
+      "target": "milvus",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-search-qdrant",
+      "source": "semantic-search",
+      "target": "qdrant",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-search-elastic",
+      "source": "semantic-search",
+      "target": "elasticsearch",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-prompt-perfect",
+      "source": "prompt-engineering",
+      "target": "promptperfect",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-prompt-base",
+      "source": "prompt-engineering",
+      "target": "promptbase",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-prompt-langsmith",
+      "source": "prompt-engineering",
+      "target": "langsmith",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-prompt-dspy",
+      "source": "prompt-engineering",
+      "target": "dspy",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-fraud-sklearn",
+      "source": "fraud-detection",
+      "target": "scikit-learn",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-fraud-xgboost",
+      "source": "fraud-detection",
+      "target": "xgboost",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-rec-lightgbm",
+      "source": "recommendation-systems",
+      "target": "lightgbm",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-predict-tensorflow",
+      "source": "predictive-analytics",
+      "target": "tensorflow",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-anomaly-pytorch",
+      "source": "anomaly-detection",
+      "target": "pytorch",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-farm-deere",
+      "source": "precision-farming",
+      "target": "john-deere-ops",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-farm-climate",
+      "source": "precision-farming",
+      "target": "climate-fieldview",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-farm-blue",
+      "source": "precision-farming",
+      "target": "blue-river",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-farm-kubota",
+      "source": "precision-farming",
+      "target": "kubota-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-maint-senseye",
+      "source": "predictive-maintenance",
+      "target": "siemens-senseye",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-maint-predix",
+      "source": "predictive-maintenance",
+      "target": "ge-predix",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-quality-copilot",
+      "source": "quality-control-ai",
+      "target": "siemens-copilot",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-supply-sap",
+      "source": "supply-chain-opt",
+      "target": "sap-digital-mfg",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-bim-procore",
+      "source": "bim-ai",
+      "target": "procore",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-bim-autodesk",
+      "source": "bim-ai",
+      "target": "autodesk-construction",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-prop-zillow",
+      "source": "property-valuation",
+      "target": "zillow-zestimate",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-const-plangrid",
+      "source": "construction-safety",
+      "target": "plangrid",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-grid-gridwise",
+      "source": "smart-grid",
+      "target": "gridwise",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-renew-deepmind",
+      "source": "renewable-optimization",
+      "target": "deepmind-energy",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-energy-ibm",
+      "source": "energy-forecasting",
+      "target": "ibm-hyref",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-grid-schneider",
+      "source": "smart-grid",
+      "target": "schneider-ecostruxure",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-prompt-wordware",
+      "source": "prompt-engineering",
+      "target": "wordware",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-vision-autodraw",
+      "source": "vision-language",
+      "target": "autodraw",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-diffusion-prisma",
+      "source": "diffusion",
+      "target": "prisma-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-vision-amazon-go",
+      "source": "computer-use",
+      "target": "amazon-go",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-voice-duplex",
+      "source": "voice-assistants",
+      "target": "google-duplex",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-vision-photoscan",
+      "source": "vision-language",
+      "target": "photoscan",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-legal-legora",
+      "source": "legal-ai",
+      "target": "legora",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-code-greptile",
+      "source": "ai-code-review",
+      "target": "greptile",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-chemistry-yoneda",
+      "source": "drug-discovery",
+      "target": "yonedalabs",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-chat-sitegpt",
+      "source": "customer-service",
+      "target": "sitegpt",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-agent-formula",
+      "source": "autonomous-agents",
+      "target": "formula-bot",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-diffusion-logoai",
+      "source": "diffusion",
+      "target": "logoai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-diffusion-48hours",
+      "source": "diffusion",
+      "target": "48hourslogo",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-diffusion-artisse",
+      "source": "diffusion",
+      "target": "artisse-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-diffusion-vivi",
+      "source": "diffusion",
+      "target": "vivi-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-video-kling",
+      "source": "video-gen",
+      "target": "kling-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-diffusion-swapface",
+      "source": "diffusion",
+      "target": "swapface",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-video-luma",
+      "source": "video-gen",
+      "target": "luma-dream",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-video-hailuo",
+      "source": "video-gen",
+      "target": "hailuo-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-voice-deepgram",
+      "source": "voice-assistants",
+      "target": "deepgram",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "supervised-learning-ensemble",
+      "source": "supervised-learning",
+      "target": "ensemble-methods",
+      "type": "custom",
+      "data": {
+        "edgeType": "combines"
+      }
+    },
+    {
+      "id": "deep-learning-ensemble",
+      "source": "deep-learning",
+      "target": "ensemble-methods",
+      "type": "custom",
+      "data": {
+        "edgeType": "combines"
+      }
+    },
+    {
+      "id": "reinforcement-learning-ensemble",
+      "source": "reinforcement-learning",
+      "target": "ensemble-methods",
+      "type": "custom",
+      "data": {
+        "edgeType": "combines"
+      }
+    },
+    {
+      "id": "clickup-workflow-automation",
+      "source": "clickup",
+      "target": "workflow-automation",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "clickup-conversational-ai",
+      "source": "clickup",
+      "target": "conversational-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "asana-workflow-automation",
+      "source": "asana",
+      "target": "workflow-automation",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "asana-predictive-analytics",
+      "source": "asana",
+      "target": "predictive-analytics",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "notion-ai-knowledge-base-ai",
+      "source": "notion-ai",
+      "target": "knowledge-base-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "notion-ai-workflow-automation",
+      "source": "notion-ai",
+      "target": "workflow-automation",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "monday-ai-workflow-automation",
+      "source": "monday-ai",
+      "target": "workflow-automation",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "monday-ai-predictive-analytics",
+      "source": "monday-ai",
+      "target": "predictive-analytics",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "jira-ai-ai-dev-tools",
+      "source": "jira-ai",
+      "target": "ai-dev-tools",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "jira-ai-workflow-automation",
+      "source": "jira-ai",
+      "target": "workflow-automation",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "figma-ai-image-gen",
+      "source": "figma-ai",
+      "target": "image-gen",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "figma-ai-ai-dev-tools",
+      "source": "figma-ai",
+      "target": "ai-dev-tools",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "canva-magic-image-gen",
+      "source": "canva-magic",
+      "target": "image-gen",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "canva-magic-video-gen",
+      "source": "canva-magic",
+      "target": "video-gen",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "adobe-firefly-image-gen",
+      "source": "adobe-firefly",
+      "target": "image-gen",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "adobe-firefly-video-gen",
+      "source": "adobe-firefly",
+      "target": "video-gen",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "framer-ai-ai-dev-tools",
+      "source": "framer-ai",
+      "target": "ai-dev-tools",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "spline-ai-game-ai",
+      "source": "spline-ai",
+      "target": "game-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "spline-ai-ar-vr",
+      "source": "spline-ai",
+      "target": "ar-vr",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "myfitnesspal-ai-healthcare-ai",
+      "source": "myfitnesspal-ai",
+      "target": "healthcare-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "myfitnesspal-ai-predictive-analytics",
+      "source": "myfitnesspal-ai",
+      "target": "predictive-analytics",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "strava-ai-predictive-analytics",
+      "source": "strava-ai",
+      "target": "predictive-analytics",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "strava-ai-recommendation-systems",
+      "source": "strava-ai",
+      "target": "recommendation-systems",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "whoop-predictive-analytics",
+      "source": "whoop",
+      "target": "predictive-analytics",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "whoop-healthcare-ai",
+      "source": "whoop",
+      "target": "healthcare-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "apple-fitness-ai-healthcare-ai",
+      "source": "apple-fitness-ai",
+      "target": "healthcare-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "peloton-ai-recommendation-systems",
+      "source": "peloton-ai",
+      "target": "recommendation-systems",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "peloton-ai-conversational-ai",
+      "source": "peloton-ai",
+      "target": "conversational-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "viz-ai-healthcare-ai",
+      "source": "viz-ai",
+      "target": "healthcare-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "viz-ai-anomaly-detection",
+      "source": "viz-ai",
+      "target": "anomaly-detection",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "tempus-ai-healthcare-ai",
+      "source": "tempus-ai",
+      "target": "healthcare-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "tempus-ai-drug-discovery",
+      "source": "tempus-ai",
+      "target": "drug-discovery",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "babylon-health-healthcare-ai",
+      "source": "babylon-health",
+      "target": "healthcare-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "babylon-health-conversational-ai",
+      "source": "babylon-health",
+      "target": "conversational-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "ada-health-healthcare-ai",
+      "source": "ada-health",
+      "target": "healthcare-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "ada-health-conversational-ai",
+      "source": "ada-health",
+      "target": "conversational-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "lemonade-ai-conversational-ai",
+      "source": "lemonade-ai",
+      "target": "conversational-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "lemonade-ai-fraud-detection",
+      "source": "lemonade-ai",
+      "target": "fraud-detection",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "root-insurance-predictive-analytics",
+      "source": "root-insurance",
+      "target": "predictive-analytics",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "root-insurance-finance-ai",
+      "source": "root-insurance",
+      "target": "finance-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "clearcover-finance-ai",
+      "source": "clearcover",
+      "target": "finance-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "tractable-finance-ai",
+      "source": "tractable",
+      "target": "finance-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "workday-ai-predictive-analytics",
+      "source": "workday-ai",
+      "target": "predictive-analytics",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "workday-ai-workflow-automation",
+      "source": "workday-ai",
+      "target": "workflow-automation",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "bamboohr-predictive-analytics",
+      "source": "bamboohr",
+      "target": "predictive-analytics",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "bamboohr-workflow-automation",
+      "source": "bamboohr",
+      "target": "workflow-automation",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "adp-ai-predictive-analytics",
+      "source": "adp-ai",
+      "target": "predictive-analytics",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "adp-ai-workflow-automation",
+      "source": "adp-ai",
+      "target": "workflow-automation",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "duolingo-max-gpt4",
+      "source": "duolingo-max",
+      "target": "gpt4",
+      "type": "custom",
+      "data": {
+        "edgeType": "uses"
+      }
+    },
+    {
+      "id": "duolingo-max-conversational-ai",
+      "source": "duolingo-max",
+      "target": "conversational-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "duolingo-max-voice-assistants",
+      "source": "duolingo-max",
+      "target": "voice-assistants",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "coursera-ai-recommendation-systems",
+      "source": "coursera-ai",
+      "target": "recommendation-systems",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "coursera-ai-conversational-ai",
+      "source": "coursera-ai",
+      "target": "conversational-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "khan-academy-ai-gpt4",
+      "source": "khan-academy-ai",
+      "target": "gpt4",
+      "type": "custom",
+      "data": {
+        "edgeType": "uses"
+      }
+    },
+    {
+      "id": "khan-academy-ai-conversational-ai",
+      "source": "khan-academy-ai",
+      "target": "conversational-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "harvey-ai-gpt4",
+      "source": "harvey-ai",
+      "target": "gpt4",
+      "type": "custom",
+      "data": {
+        "edgeType": "uses"
+      }
+    },
+    {
+      "id": "harvey-ai-legal-ai",
+      "source": "harvey-ai",
+      "target": "legal-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "harvey-ai-semantic-search",
+      "source": "harvey-ai",
+      "target": "semantic-search",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "lexisnexis-ai-legal-ai",
+      "source": "lexisnexis-ai",
+      "target": "legal-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "lexisnexis-ai-semantic-search",
+      "source": "lexisnexis-ai",
+      "target": "semantic-search",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "notion-ai-conversational-ai",
+      "source": "notion-ai",
+      "target": "conversational-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "uses"
+      }
+    },
+    {
+      "id": "figma-ai-conversational-ai",
+      "source": "figma-ai",
+      "target": "conversational-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "uses"
+      }
+    },
+    {
+      "id": "framer-ai-conversational-ai",
+      "source": "framer-ai",
+      "target": "conversational-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "uses"
+      }
+    },
+    {
+      "id": "spline-ai-image-gen",
+      "source": "spline-ai",
+      "target": "image-gen",
+      "type": "custom",
+      "data": {
+        "edgeType": "uses"
+      }
+    },
+    {
+      "id": "myfitnesspal-ai-conversational-ai",
+      "source": "myfitnesspal-ai",
+      "target": "conversational-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "uses"
+      }
+    },
+    {
+      "id": "computer-vision-image-recognition",
+      "source": "computer-vision",
+      "target": "image-recognition",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "apple-fitness-ai-image-recognition",
+      "source": "apple-fitness-ai",
+      "target": "image-recognition",
+      "type": "custom",
+      "data": {
+        "edgeType": "uses"
+      }
+    },
+    {
+      "id": "viz-ai-image-recognition",
+      "source": "viz-ai",
+      "target": "image-recognition",
+      "type": "custom",
+      "data": {
+        "edgeType": "uses"
+      }
+    },
+    {
+      "id": "tempus-ai-conversational-ai",
+      "source": "tempus-ai",
+      "target": "conversational-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "uses"
+      }
+    },
+    {
+      "id": "ada-health-knowledge-base-ai",
+      "source": "ada-health",
+      "target": "knowledge-base-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "uses"
+      }
+    },
+    {
+      "id": "telematics-iot-analytics",
+      "source": "telematics",
+      "target": "iot-analytics",
+      "type": "custom",
+      "data": {
+        "edgeType": "enables"
+      }
+    },
+    {
+      "id": "root-insurance-iot-analytics",
+      "source": "root-insurance",
+      "target": "iot-analytics",
+      "type": "custom",
+      "data": {
+        "edgeType": "uses"
+      }
+    },
+    {
+      "id": "clearcover-image-recognition",
+      "source": "clearcover",
+      "target": "image-recognition",
+      "type": "custom",
+      "data": {
+        "edgeType": "uses"
+      }
+    },
+    {
+      "id": "tractable-image-recognition",
+      "source": "tractable",
+      "target": "image-recognition",
+      "type": "custom",
+      "data": {
+        "edgeType": "uses"
+      }
+    },
+    {
+      "id": "workday-ai-conversational-ai",
+      "source": "workday-ai",
+      "target": "conversational-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "uses"
+      }
+    },
+    {
+      "id": "bamboohr-conversational-ai",
+      "source": "bamboohr",
+      "target": "conversational-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "uses"
+      }
+    },
+    {
+      "id": "lexisnexis-ai-conversational-ai",
+      "source": "lexisnexis-ai",
+      "target": "conversational-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "uses"
+      }
+    },
+    {
+      "id": "e-ai-dev-tools-codewhisperer-ai",
+      "source": "ai-dev-tools",
+      "target": "codewhisperer-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-marketing-ai-voiceclone-pro",
+      "source": "marketing-ai",
+      "target": "voiceclone-pro",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-finance-ai-paystream",
+      "source": "finance-ai",
+      "target": "paystream",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-finance-ai-budgetmaster",
+      "source": "finance-ai",
+      "target": "budgetmaster",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-healthcare-ai-fittracker-pro",
+      "source": "healthcare-ai",
+      "target": "fittracker-pro",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-healthcare-ai-mindfulmoments",
+      "source": "healthcare-ai",
+      "target": "mindfulmoments",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-sales-ai-shopsmart",
+      "source": "sales-ai",
+      "target": "shopsmart",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-productivity-ai-inventoryflow",
+      "source": "productivity-ai",
+      "target": "inventoryflow",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-productivity-ai-designstudio",
+      "source": "productivity-ai",
+      "target": "designstudio",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-marketing-ai-videoedit-pro",
+      "source": "marketing-ai",
+      "target": "videoedit-pro",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-productivity-ai-taskflow",
+      "source": "productivity-ai",
+      "target": "taskflow",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-productivity-ai-notemaster",
+      "source": "productivity-ai",
+      "target": "notemaster",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-game-ai-puzzlequest",
+      "source": "game-ai",
+      "target": "puzzlequest",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-ai-dev-tools-gamestats",
+      "source": "ai-dev-tools",
+      "target": "gamestats",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-voice-assistants-chatsecure",
+      "source": "voice-assistants",
+      "target": "chatsecure",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-creative-ai-meetingflow",
+      "source": "creative-ai",
+      "target": "meetingflow",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-sales-ai-revenuebot-ai",
+      "source": "sales-ai",
+      "target": "revenuebot-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-marketing-ai-emailcraft-ai",
+      "source": "marketing-ai",
+      "target": "emailcraft-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-finance-ai-invoiceflow",
+      "source": "finance-ai",
+      "target": "invoiceflow",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-marketing-ai-socialscheduler",
+      "source": "marketing-ai",
+      "target": "socialscheduler",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-ai-dev-tools-codesnippet-manager",
+      "source": "ai-dev-tools",
+      "target": "codesnippet-manager",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-healthcare-ai-fitnesstracker-pro",
+      "source": "healthcare-ai",
+      "target": "fitnesstracker-pro",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-marketing-ai-localbusiness-hub",
+      "source": "marketing-ai",
+      "target": "localbusiness-hub",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-ai-education-coursecreator",
+      "source": "ai-education",
+      "target": "coursecreator",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-ai-dev-tools-synthflow-ai",
+      "source": "ai-dev-tools",
+      "target": "synthflow-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-legal-ai-documind",
+      "source": "legal-ai",
+      "target": "documind",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-customer-service-deliverydash",
+      "source": "customer-service",
+      "target": "deliverydash",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-ai-dev-tools-propertyflow",
+      "source": "ai-dev-tools",
+      "target": "propertyflow",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-healthcare-ai-healthconnect",
+      "source": "healthcare-ai",
+      "target": "healthconnect",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-ai-education-edustream",
+      "source": "ai-education",
+      "target": "edustream",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-finance-ai-cryptowallet-pro",
+      "source": "finance-ai",
+      "target": "cryptowallet-pro",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-voice-assistants-foodienetwork",
+      "source": "voice-assistants",
+      "target": "foodienetwork",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-productivity-ai-greenenergy-solutions",
+      "source": "productivity-ai",
+      "target": "greenenergy-solutions",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-productivity-ai-aiflow-beta",
+      "source": "productivity-ai",
+      "target": "aiflow-beta",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-productivity-ai-shoppinglist-pro",
+      "source": "productivity-ai",
+      "target": "shoppinglist-pro",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-productivity-ai-remotework-hub",
+      "source": "productivity-ai",
+      "target": "remotework-hub",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-finance-ai-cryptotracker",
+      "source": "finance-ai",
+      "target": "cryptotracker",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-productivity-ai-eventplanner-pro",
+      "source": "productivity-ai",
+      "target": "eventplanner-pro",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-ai-education-languagelearner",
+      "source": "ai-education",
+      "target": "languagelearner",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-ai-dev-tools-opencodeai",
+      "source": "ai-dev-tools",
+      "target": "opencodeai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-vision-language-databasevisualizer",
+      "source": "vision-language",
+      "target": "databasevisualizer",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-ai-dev-tools-apitester-pro",
+      "source": "ai-dev-tools",
+      "target": "apitester-pro",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-ai-dev-tools-weatherwidget",
+      "source": "ai-dev-tools",
+      "target": "weatherwidget",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e-voice-assistants-timetracker-simple",
+      "source": "voice-assistants",
+      "target": "timetracker-simple",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    }
+  ]
+}
