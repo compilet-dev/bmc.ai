@@ -1,34 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Redirecting...</title>
-    <script>
-      // For GitHub Pages with hash routing
-      // This script converts path-based URLs to hash-based URLs
-      // e.g., /bmc.ai/ai-capability-map becomes /bmc.ai/#/ai-capability-map
-      
-      var l = window.location;
-      var path = l.pathname;
-      var basePath = '/bmc.ai/';
-      
-      // Check if we're already on a hash route
-      if (l.hash && l.hash.startsWith('#/')) {
-        // Already a hash route, don't do anything
-      } else if (path.startsWith(basePath) && path !== basePath) {
-        // Extract the route after the base path
-        var route = path.substring(basePath.length - 1); // Keep the leading slash
-        // Redirect to base path with hash route
-        l.replace(basePath + '#' + route + l.search);
-      } else if (path === basePath) {
-        // Already at base path, don't redirect
-      } else {
-        // Fallback to base path
-        l.replace(basePath);
-      }
-    </script>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/bmc.ai/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Auto BMC</title>
+    <script type="module" crossorigin src="/bmc.ai/assets/index-DNk34T6V.js"></script>
+    <link rel="stylesheet" crossorigin href="/bmc.ai/assets/index-DITEreyV.css">
   </head>
   <body>
-    Redirecting...
+    <div id="root"></div>
   </body>
 </html>
