@@ -6850,15 +6850,6 @@
       }
     },
     {
-      "id": "e-marketing-ai-voiceclone-pro",
-      "source": "marketing-ai",
-      "target": "voiceclone-pro",
-      "type": "custom",
-      "data": {
-        "edgeType": "produces"
-      }
-    },
-    {
       "id": "e-finance-ai-paystream",
       "source": "finance-ai",
       "target": "paystream",
@@ -6895,60 +6886,6 @@
       }
     },
     {
-      "id": "e-sales-ai-shopsmart",
-      "source": "sales-ai",
-      "target": "shopsmart",
-      "type": "custom",
-      "data": {
-        "edgeType": "produces"
-      }
-    },
-    {
-      "id": "e-productivity-ai-inventoryflow",
-      "source": "productivity-ai",
-      "target": "inventoryflow",
-      "type": "custom",
-      "data": {
-        "edgeType": "produces"
-      }
-    },
-    {
-      "id": "e-productivity-ai-designstudio",
-      "source": "productivity-ai",
-      "target": "designstudio",
-      "type": "custom",
-      "data": {
-        "edgeType": "produces"
-      }
-    },
-    {
-      "id": "e-marketing-ai-videoedit-pro",
-      "source": "marketing-ai",
-      "target": "videoedit-pro",
-      "type": "custom",
-      "data": {
-        "edgeType": "produces"
-      }
-    },
-    {
-      "id": "e-productivity-ai-taskflow",
-      "source": "productivity-ai",
-      "target": "taskflow",
-      "type": "custom",
-      "data": {
-        "edgeType": "produces"
-      }
-    },
-    {
-      "id": "e-productivity-ai-notemaster",
-      "source": "productivity-ai",
-      "target": "notemaster",
-      "type": "custom",
-      "data": {
-        "edgeType": "produces"
-      }
-    },
-    {
       "id": "e-game-ai-puzzlequest",
       "source": "game-ai",
       "target": "puzzlequest",
@@ -6976,45 +6913,9 @@
       }
     },
     {
-      "id": "e-creative-ai-meetingflow",
-      "source": "creative-ai",
-      "target": "meetingflow",
-      "type": "custom",
-      "data": {
-        "edgeType": "produces"
-      }
-    },
-    {
-      "id": "e-sales-ai-revenuebot-ai",
-      "source": "sales-ai",
-      "target": "revenuebot-ai",
-      "type": "custom",
-      "data": {
-        "edgeType": "produces"
-      }
-    },
-    {
-      "id": "e-marketing-ai-emailcraft-ai",
-      "source": "marketing-ai",
-      "target": "emailcraft-ai",
-      "type": "custom",
-      "data": {
-        "edgeType": "produces"
-      }
-    },
-    {
       "id": "e-finance-ai-invoiceflow",
       "source": "finance-ai",
       "target": "invoiceflow",
-      "type": "custom",
-      "data": {
-        "edgeType": "produces"
-      }
-    },
-    {
-      "id": "e-marketing-ai-socialscheduler",
-      "source": "marketing-ai",
-      "target": "socialscheduler",
       "type": "custom",
       "data": {
         "edgeType": "produces"
@@ -7033,24 +6934,6 @@
       "id": "e-healthcare-ai-fitnesstracker-pro",
       "source": "healthcare-ai",
       "target": "fitnesstracker-pro",
-      "type": "custom",
-      "data": {
-        "edgeType": "produces"
-      }
-    },
-    {
-      "id": "e-marketing-ai-localbusiness-hub",
-      "source": "marketing-ai",
-      "target": "localbusiness-hub",
-      "type": "custom",
-      "data": {
-        "edgeType": "produces"
-      }
-    },
-    {
-      "id": "e-ai-education-coursecreator",
-      "source": "ai-education",
-      "target": "coursecreator",
       "type": "custom",
       "data": {
         "edgeType": "produces"
@@ -7102,15 +6985,6 @@
       }
     },
     {
-      "id": "e-ai-education-edustream",
-      "source": "ai-education",
-      "target": "edustream",
-      "type": "custom",
-      "data": {
-        "edgeType": "produces"
-      }
-    },
-    {
       "id": "e-finance-ai-cryptowallet-pro",
       "source": "finance-ai",
       "target": "cryptowallet-pro",
@@ -7129,63 +7003,9 @@
       }
     },
     {
-      "id": "e-productivity-ai-greenenergy-solutions",
-      "source": "productivity-ai",
-      "target": "greenenergy-solutions",
-      "type": "custom",
-      "data": {
-        "edgeType": "produces"
-      }
-    },
-    {
-      "id": "e-productivity-ai-aiflow-beta",
-      "source": "productivity-ai",
-      "target": "aiflow-beta",
-      "type": "custom",
-      "data": {
-        "edgeType": "produces"
-      }
-    },
-    {
-      "id": "e-productivity-ai-shoppinglist-pro",
-      "source": "productivity-ai",
-      "target": "shoppinglist-pro",
-      "type": "custom",
-      "data": {
-        "edgeType": "produces"
-      }
-    },
-    {
-      "id": "e-productivity-ai-remotework-hub",
-      "source": "productivity-ai",
-      "target": "remotework-hub",
-      "type": "custom",
-      "data": {
-        "edgeType": "produces"
-      }
-    },
-    {
       "id": "e-finance-ai-cryptotracker",
       "source": "finance-ai",
       "target": "cryptotracker",
-      "type": "custom",
-      "data": {
-        "edgeType": "produces"
-      }
-    },
-    {
-      "id": "e-productivity-ai-eventplanner-pro",
-      "source": "productivity-ai",
-      "target": "eventplanner-pro",
-      "type": "custom",
-      "data": {
-        "edgeType": "produces"
-      }
-    },
-    {
-      "id": "e-ai-education-languagelearner",
-      "source": "ai-education",
-      "target": "languagelearner",
       "type": "custom",
       "data": {
         "edgeType": "produces"
@@ -7231,6 +7051,618 @@
       "id": "e-voice-assistants-timetracker-simple",
       "source": "voice-assistants",
       "target": "timetracker-simple",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e97",
+      "source": "finance-ai",
+      "target": "root-insurance",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e98",
+      "source": "workflow-automation",
+      "target": "eventplanner-pro",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e99",
+      "source": "workflow-automation",
+      "target": "adp-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e100",
+      "source": "supply-chain-opt",
+      "target": "inventoryflow",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e101",
+      "source": "image-recognition",
+      "target": "swapface",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e102",
+      "source": "healthcare-ai",
+      "target": "tempus-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e103",
+      "source": "finance-ai",
+      "target": "clearcover",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e104",
+      "source": "ai-research-tools",
+      "target": "languagelearner",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e105",
+      "source": "ai-research-tools",
+      "target": "coursera-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e106",
+      "source": "ai-dev-tools",
+      "target": "jira-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e107",
+      "source": "workflow-automation",
+      "target": "socialscheduler",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e108",
+      "source": "image-gen",
+      "target": "logoai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e109",
+      "source": "workflow-automation",
+      "target": "workday-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e110",
+      "source": "image-recognition",
+      "target": "prisma-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e111",
+      "source": "image-gen",
+      "target": "artisse-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e112",
+      "source": "ai-research-tools",
+      "target": "edustream",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e113",
+      "source": "legal-ai",
+      "target": "lexisnexis-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e114",
+      "source": "healthcare-ai",
+      "target": "strava-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e115",
+      "source": "ai-dev-tools",
+      "target": "promptperfect",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e116",
+      "source": "healthcare-ai",
+      "target": "ada-health",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e117",
+      "source": "healthcare-ai",
+      "target": "viz-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e118",
+      "source": "workflow-automation",
+      "target": "asana",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e119",
+      "source": "workflow-automation",
+      "target": "taskflow",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e120",
+      "source": "customer-service",
+      "target": "localbusiness-hub",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e121",
+      "source": "workflow-automation",
+      "target": "aiflow-beta",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e122",
+      "source": "healthcare-ai",
+      "target": "myfitnesspal-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e123",
+      "source": "healthcare-ai",
+      "target": "apple-fitness-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e124",
+      "source": "healthcare-ai",
+      "target": "peloton-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e125",
+      "source": "workflow-automation",
+      "target": "meetingflow",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e126",
+      "source": "workflow-automation",
+      "target": "bamboohr",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e127",
+      "source": "healthcare-ai",
+      "target": "whoop",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e128",
+      "source": "image-gen",
+      "target": "canva-magic",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e129",
+      "source": "workflow-automation",
+      "target": "clickup",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e130",
+      "source": "ai-dev-tools",
+      "target": "figma-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e131",
+      "source": "video-gen",
+      "target": "videoedit-pro",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e132",
+      "source": "ai-dev-tools",
+      "target": "wordware",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e133",
+      "source": "finance-ai",
+      "target": "revenuebot-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e134",
+      "source": "customer-service",
+      "target": "emailcraft-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e135",
+      "source": "ai-research-tools",
+      "target": "khan-academy-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e136",
+      "source": "ai-dev-tools",
+      "target": "promptbase",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e137",
+      "source": "workflow-automation",
+      "target": "shoppinglist-pro",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e138",
+      "source": "image-gen",
+      "target": "autodraw",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e139",
+      "source": "workflow-automation",
+      "target": "notion-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e140",
+      "source": "workflow-automation",
+      "target": "monday-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e141",
+      "source": "finance-ai",
+      "target": "lemonade-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e142",
+      "source": "ai-dev-tools",
+      "target": "databasevisualizer",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e143",
+      "source": "voice-assistants",
+      "target": "voiceclone-pro",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e144",
+      "source": "image-gen",
+      "target": "vivi-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e145",
+      "source": "image-gen",
+      "target": "48hourslogo",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e146",
+      "source": "renewable-optimization",
+      "target": "greenenergy-solutions",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e147",
+      "source": "image-recognition",
+      "target": "amazon-go",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e148",
+      "source": "ai-research-tools",
+      "target": "duolingo-max",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e149",
+      "source": "ai-dev-tools",
+      "target": "langsmith",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e150",
+      "source": "image-gen",
+      "target": "designstudio",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e151",
+      "source": "finance-ai",
+      "target": "tractable",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e152",
+      "source": "healthcare-ai",
+      "target": "babylon-health",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e153",
+      "source": "ai-dev-tools",
+      "target": "framer-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e154",
+      "source": "ai-dev-tools",
+      "target": "dspy",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e155",
+      "source": "ai-research-tools",
+      "target": "coursecreator",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e156",
+      "source": "image-gen",
+      "target": "adobe-firefly",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e157",
+      "source": "legal-ai",
+      "target": "harvey-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e158",
+      "source": "image-gen",
+      "target": "spline-ai",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e159",
+      "source": "recommendation-systems",
+      "target": "shopsmart",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e160",
+      "source": "image-recognition",
+      "target": "photoscan",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e161",
+      "source": "workflow-automation",
+      "target": "remotework-hub",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e162",
+      "source": "knowledge-base-ai",
+      "target": "notemaster",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e163",
+      "source": "semantic-search",
+      "target": "knowledge-graphs",
+      "type": "custom",
+      "data": {
+        "edgeType": "produces"
+      }
+    },
+    {
+      "id": "e164",
+      "source": "knowledge-base-ai",
+      "target": "knowledge-graphs",
       "type": "custom",
       "data": {
         "edgeType": "produces"
