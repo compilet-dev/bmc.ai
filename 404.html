@@ -4,27 +4,26 @@
     <meta charset="utf-8">
     <title>Redirecting...</title>
     <script>
-      // For GitHub Pages with hash routing
-      // This script converts path-based URLs to hash-based URLs
-      // e.g., /bmc.ai/ai-capability-map becomes /bmc.ai/#/ai-capability-map
+      // Single Page Apps for GitHub Pages
+      // This script takes the current url and converts the path and query
+      // string into just a query string, and then redirects the browser
+      // to the new url with only a query string and hash fragment
       
+      // If you're creating a Project Pages site and NOT using a custom domain,
+      // then set pathSegmentsToKeep to 1 (enterprise users may need to set it to > 1).
+      // For example, if your site is at username.github.io/repo-name
+      // then set pathSegmentsToKeep to 1
+      
+      var pathSegmentsToKeep = 1;
+
       var l = window.location;
-      var path = l.pathname;
-      var basePath = '/bmc.ai/';
-      
-      // Check if we're already on a hash route
-      if (l.hash && l.hash.startsWith('#/')) {
-        // Already a hash route, just reload the index
-        l.replace(basePath);
-      } else if (path.startsWith(basePath)) {
-        // Extract the route after the base path
-        var route = path.substring(basePath.length);
-        // Redirect to hash-based route
-        l.replace(basePath + '#/' + route + l.search);
-      } else {
-        // Fallback to base path
-        l.replace(basePath);
-      }
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
     </script>
   </head>
   <body>
